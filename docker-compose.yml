@@ -1,0 +1,104 @@
+version: '3.8'
+
+services:
+  golang:
+    image: golang:alpine
+    volumes:
+      - ./:/app
+      - ./logs/:/logs/
+    working_dir: /app
+    command: go run main.go
+
+  elasticsearch:
+    build:
+      context: elasticsearch/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    healthcheck:
+      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:9200/_cat/health']
+      interval: 3s
+      timeout: 3s
+      retries: 80
+    environment:
+      ES_JAVA_OPTS: '-Xmx256m -Xms256m'
+      ELASTIC_PASSWORD: changeme
+      # Use single node discovery in order to disable production mode and avoid bootstrap checks.
+      # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
+      discovery.type: single-node
+    volumes:
+      - ./elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml:ro
+    ports:
+      - 9200:9200
+    networks:
+      - elk
+
+  logstash:
+    build:
+      context: logstash/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
+      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+    environment:
+      LS_JAVA_OPTS: '-Xmx256m -Xms256m'
+    ports:
+      - '5000:5000'
+    depends_on:
+      - elasticsearch
+    networks:
+      - elk
+
+  kibana:
+    build:
+      context: kibana/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    healthcheck:
+      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:5601/api/status']
+      interval: 3s
+      timeout: 3s
+      retries: 80
+    volumes:
+      - ./kibana/config/:/usr/share/kibana/config:ro
+    ports:
+      - 5601:5601
+    depends_on:
+      - elasticsearch
+    networks:
+      - elk
+
+  filebeat:
+    build:
+      context: extensions/filebeat/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - ./extensions/filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
+      - ./logs/:/logs/
+      - /var/lib/docker/containers:/var/lib/docker/containers:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    user: root
+    depends_on:
+      - elasticsearch
+    networks:
+      - elk
+
+  logspout:
+    build:
+      context: extensions/logspout/
+      args:
+        ELK_VERSION: $ELK_VERSION
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    environment:
+      ELK_VERSION: $ELK_VERSION
+    user: root
+    depends_on:
+      - elasticsearch
+    networks:
+      - elk
+
+networks:
+  elk:
+    driver: bridge

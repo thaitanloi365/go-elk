@@ -1,0 +1,30 @@
+filebeat.config:
+  modules:
+    path: ${path.config}/modules.d/*.yml
+    reload.enabled: false
+
+filebeat.autodiscover:
+  providers:
+    - type: docker
+      hints.enabled: true
+
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /logs/*.log
+  # - type: container
+  #   enabled: true
+  #   paths:
+  #     - '/var/lib/docker/containers/*/*.log'
+
+processors:
+  - add_docker_metadata: ~
+
+  - decode_json_fields:
+      fields: ['message', 'msg']
+      target: 'json'
+      overwrite_keys: true
+
+output.logstash:
+  hosts: ['logstash:5044']
