@@ -1,13 +1,64 @@
-version: "3.8"
+version: '3.8'
 
 services:
   golang:
     image: golang:alpine
     volumes:
       - ./:/app
-      - ./logs/:/logs/
+      - app_logs/:/logs/
     working_dir: /app
     command: go run main.go
+    logging:
+      driver: syslog
+      options:
+        syslog-address: 'tcp://127.0.0.1:5001'
+        tag: 'golang'
+
+  traefik:
+    image: traefik:2.4
+    container_name: traefik
+    restart: always
+    ports:
+      - '80:80'
+      - '443:443'
+    environment:
+      - 'TZ=Asia/HoChiMinh'
+    command:
+      - --entrypoints.http.address=:80
+      - --entrypoints.https.address=:443
+
+      - --providers.docker
+      - --providers.docker.endpoint=unix:///var/run/docker.sock
+      - --providers.docker.exposedbydefault=false
+      - --providers.docker.swarmmode=false
+
+      - --accesslog.bufferingsize=100
+      - --accesslog.fields.defaultmode
+      - --accesslog.filepath=
+      - --accesslog.format=common
+      - --accesslog.filters.statuscodes=200,300-499
+
+      - --log=true
+      - --log.filepath=
+      - --log.format=common
+      - --log.level=INFO
+
+      - --api.dashboard=true
+      - --api.debug=true
+      - --api.insecure=false
+
+    labels:
+      - traefik.http.routers.traefik-http.rule=Host(`traefik.test.localhost`)
+      - traefik.http.routers.traefik-http.entrypoints=http
+      - traefik.http.routers.traefik-http.service=api@internal
+
+    volumes:
+      - traefik_logs:/var/log/traefik/
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /usr/share/zoneinfo:/usr/share/zoneinfo:ro
+      - ./custom/:/etc/traefik/custom/:ro
+    networks:
+      - elk
 
   elasticsearch:
     build:
@@ -15,12 +66,12 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ["CMD", "curl", "-s", "-f", "http://localhost:9200/_cat/health"]
+      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:9200/_cat/health']
       interval: 3s
       timeout: 3s
       retries: 80
     environment:
-      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      ES_JAVA_OPTS: '-Xmx256m -Xms256m'
       ELASTIC_PASSWORD: changeme
       # Use single node discovery in order to disable production mode and avoid bootstrap checks.
       # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
@@ -41,9 +92,10 @@ services:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
     environment:
-      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+      LS_JAVA_OPTS: '-Xmx256m -Xms256m'
     ports:
-      - "5000:5000"
+      - '5000:5000'
+      - '5001:5001'
     depends_on:
       - elasticsearch
     networks:
@@ -55,7 +107,7 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ["CMD", "curl", "-s", "-f", "http://localhost:5601/api/status"]
+      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:5601/api/status']
       interval: 3s
       timeout: 3s
       retries: 80
@@ -74,8 +126,9 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     volumes:
+      - app_logs/:/logs/
+      - traefik_logs:/var/log/traefik/
       - ./extensions/filebeat/config/filebeat.yml:/usr/share/filebeat/filebeat.yml
-      - ./logs/:/logs/
       - /var/lib/docker/containers:/var/lib/docker/containers:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
     user: root
@@ -84,20 +137,9 @@ services:
     networks:
       - elk
 
-  logspout:
-    build:
-      context: extensions/logspout/
-      args:
-        ELK_VERSION: $ELK_VERSION
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock:ro
-    environment:
-      ELK_VERSION: $ELK_VERSION
-    user: root
-    depends_on:
-      - elasticsearch
-    networks:
-      - elk
+volumes:
+  app_logs:
+  traefik_logs:
 
 networks:
   elk:

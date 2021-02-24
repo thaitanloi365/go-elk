@@ -1,0 +1,16 @@
+log:
+  level: info
+  format: json
+
+accessLog:
+  filePath: '/var/log/traefik/access.log'
+  fields:
+    defaultMode: keep
+    names:
+      StartUTC: drop
+    headers:
+      defaultMode: keep
+api:
+  debug: true
+  dashboard: true
+  insecure: false

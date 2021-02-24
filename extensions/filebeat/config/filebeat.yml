@@ -16,14 +16,13 @@ filebeat.inputs:
       type: app
     paths:
       - /logs/*/*.log
-
-  - type: container
+  - type: log
     enabled: true
     fields_under_root: true
     fields:
-      type: container
+      type: traefik
     paths:
-      - "/var/lib/docker/containers/*/*.log"
+      - /var/log/traefik/*.log
 
 output.logstash:
-  hosts: ["logstash:5044"]
+  hosts: ['logstash:5044']
