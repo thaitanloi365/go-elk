@@ -1,12 +1,13 @@
 package main
 
 import (
-	"fmt"
+	"log"
 	"math/rand"
-	"os"
+	"path/filepath"
 	"time"
 
-	"go.uber.org/zap"
+	"github.com/kjk/dailyrotate"
+	logger "github.com/thaitanloi365/go-log"
 )
 
 const (
@@ -14,21 +15,24 @@ const (
 )
 
 func main() {
-	os.OpenFile(logPath, os.O_RDONLY|os.O_CREATE, 0666)
-	c := zap.NewProductionConfig()
-	c.OutputPaths = []string{"stdout", logPath}
-	l, err := c.Build()
+	logrotate, err := dailyrotate.NewFile(filepath.Join("logs/db", "2006-01-02.log"), func(path string, didRotate bool) {})
 	if err != nil {
 		panic(err)
 	}
+
+	var logger = logger.New(&logger.Config{
+		BufferedSize: 50,
+		Writer:       log.New(logrotate, "", 0),
+	})
+
 	i := 0
 	for {
 		i++
 		time.Sleep(time.Second * 3)
 		if rand.Intn(10) == 1 {
-			l.Error("test error", zap.Error(fmt.Errorf("error because test: %d", i)))
+			logger.Errorf("error because test: %d", i)
 		} else {
-			l.Info(fmt.Sprintf("test log: %d", i))
+			logger.Infof("test log: %d", i)
 		}
 	}
 }

@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   golang:
@@ -15,12 +15,12 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:9200/_cat/health']
+      test: ["CMD", "curl", "-s", "-f", "http://localhost:9200/_cat/health"]
       interval: 3s
       timeout: 3s
       retries: 80
     environment:
-      ES_JAVA_OPTS: '-Xmx256m -Xms256m'
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
       ELASTIC_PASSWORD: changeme
       # Use single node discovery in order to disable production mode and avoid bootstrap checks.
       # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
@@ -41,9 +41,9 @@ services:
       - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
       - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
     environment:
-      LS_JAVA_OPTS: '-Xmx256m -Xms256m'
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     ports:
-      - '5000:5000'
+      - "5000:5000"
     depends_on:
       - elasticsearch
     networks:
@@ -55,7 +55,7 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:5601/api/status']
+      test: ["CMD", "curl", "-s", "-f", "http://localhost:5601/api/status"]
       interval: 3s
       timeout: 3s
       retries: 80

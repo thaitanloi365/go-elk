@@ -11,20 +11,19 @@ filebeat.autodiscover:
 filebeat.inputs:
   - type: log
     enabled: true
+    fields_under_root: true
+    fields:
+      type: app
     paths:
-      - /logs/*.log
-  # - type: container
-  #   enabled: true
-  #   paths:
-  #     - '/var/lib/docker/containers/*/*.log'
+      - /logs/*/*.log
 
-processors:
-  - add_docker_metadata: ~
-
-  - decode_json_fields:
-      fields: ['message', 'msg']
-      target: 'json'
-      overwrite_keys: true
+  - type: container
+    enabled: true
+    fields_under_root: true
+    fields:
+      type: container
+    paths:
+      - "/var/lib/docker/containers/*/*.log"
 
 output.logstash:
-  hosts: ['logstash:5044']
+  hosts: ["logstash:5044"]
