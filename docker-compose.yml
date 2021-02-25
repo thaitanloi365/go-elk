@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   golang:
@@ -11,18 +11,18 @@ services:
     logging:
       driver: syslog
       options:
-        syslog-address: 'tcp://127.0.0.1:5001'
-        tag: 'golang'
+        syslog-address: "tcp://127.0.0.1:5001"
+        tag: "golang"
 
   traefik:
-    image: traefik:2.4
+    image: traefik:v2.4
     container_name: traefik
     restart: always
     ports:
-      - '80:80'
-      - '443:443'
+      - "80:80"
+      - "443:443"
     environment:
-      - 'TZ=Asia/HoChiMinh'
+      - "TZ=Asia/HoChiMinh"
     command:
       - --entrypoints.http.address=:80
       - --entrypoints.https.address=:443
@@ -48,6 +48,7 @@ services:
       - --api.insecure=false
 
     labels:
+      - traefik.enable=true
       - traefik.http.routers.traefik-http.rule=Host(`traefik.test.localhost`)
       - traefik.http.routers.traefik-http.entrypoints=http
       - traefik.http.routers.traefik-http.service=api@internal
@@ -66,12 +67,12 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:9200/_cat/health']
+      test: ["CMD", "curl", "-s", "-f", "http://localhost:9200/_cat/health"]
       interval: 3s
       timeout: 3s
       retries: 80
     environment:
-      ES_JAVA_OPTS: '-Xmx256m -Xms256m'
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
       ELASTIC_PASSWORD: changeme
       # Use single node discovery in order to disable production mode and avoid bootstrap checks.
       # see: https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
@@ -89,13 +90,14 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     volumes:
-      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
-      - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
+      - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+      - ./logstash/pipeline/logstash.conf:/usr/share/logstash/pipeline/logstash.conf
     environment:
-      LS_JAVA_OPTS: '-Xmx256m -Xms256m'
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+      LS_OPTS: "-r --config.reload.automatic --config.reload.interval 20"
     ports:
-      - '5000:5000'
-      - '5001:5001'
+      - "5000:5000"
+      - "5001:5001"
     depends_on:
       - elasticsearch
     networks:
@@ -107,7 +109,7 @@ services:
       args:
         ELK_VERSION: $ELK_VERSION
     healthcheck:
-      test: ['CMD', 'curl', '-s', '-f', 'http://localhost:5601/api/status']
+      test: ["CMD", "curl", "-s", "-f", "http://localhost:5601/api/status"]
       interval: 3s
       timeout: 3s
       retries: 80

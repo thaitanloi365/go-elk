@@ -1,0 +1,1225 @@
+2021-02-25T02:51:06Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T02:51:09Z INFO /app/main.go:35 test log: 2
+2021-02-25T02:51:12Z INFO /app/main.go:35 test log: 3
+2021-02-25T02:52:57Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T02:53:00Z INFO /app/main.go:35 test log: 2
+2021-02-25T02:53:03Z INFO /app/main.go:35 test log: 3
+2021-02-25T02:53:06Z INFO /app/main.go:35 test log: 4
+2021-02-25T02:53:09Z ERROR /app/main.go:33 error because test: 5
+2021-02-25T02:53:12Z INFO /app/main.go:35 test log: 6
+2021-02-25T02:53:15Z INFO /app/main.go:35 test log: 7
+2021-02-25T02:53:18Z INFO /app/main.go:35 test log: 8
+2021-02-25T02:53:21Z INFO /app/main.go:35 test log: 9
+2021-02-25T02:53:24Z INFO /app/main.go:35 test log: 10
+2021-02-25T02:53:27Z INFO /app/main.go:35 test log: 11
+2021-02-25T02:53:30Z ERROR /app/main.go:33 error because test: 12
+2021-02-25T02:53:33Z INFO /app/main.go:35 test log: 13
+2021-02-25T02:53:36Z INFO /app/main.go:35 test log: 14
+2021-02-25T02:53:39Z INFO /app/main.go:35 test log: 15
+2021-02-25T02:53:42Z INFO /app/main.go:35 test log: 16
+2021-02-25T02:53:45Z ERROR /app/main.go:33 error because test: 17
+2021-02-25T02:53:48Z INFO /app/main.go:35 test log: 18
+2021-02-25T02:53:51Z INFO /app/main.go:35 test log: 19
+2021-02-25T02:53:54Z INFO /app/main.go:35 test log: 20
+2021-02-25T02:53:57Z INFO /app/main.go:35 test log: 21
+2021-02-25T02:54:00Z INFO /app/main.go:35 test log: 22
+2021-02-25T02:54:03Z INFO /app/main.go:35 test log: 23
+2021-02-25T02:54:06Z INFO /app/main.go:35 test log: 24
+2021-02-25T02:54:09Z INFO /app/main.go:35 test log: 25
+2021-02-25T02:54:12Z INFO /app/main.go:35 test log: 26
+2021-02-25T02:54:15Z INFO /app/main.go:35 test log: 27
+2021-02-25T02:54:18Z INFO /app/main.go:35 test log: 28
+2021-02-25T02:54:21Z INFO /app/main.go:35 test log: 29
+2021-02-25T02:54:24Z INFO /app/main.go:35 test log: 30
+2021-02-25T02:54:27Z ERROR /app/main.go:33 error because test: 31
+2021-02-25T02:54:30Z INFO /app/main.go:35 test log: 32
+2021-02-25T02:54:33Z INFO /app/main.go:35 test log: 33
+2021-02-25T02:54:36Z ERROR /app/main.go:33 error because test: 34
+2021-02-25T02:54:39Z INFO /app/main.go:35 test log: 35
+2021-02-25T02:54:42Z INFO /app/main.go:35 test log: 36
+2021-02-25T02:54:45Z INFO /app/main.go:35 test log: 37
+2021-02-25T02:54:48Z ERROR /app/main.go:33 error because test: 38
+2021-02-25T02:54:51Z INFO /app/main.go:35 test log: 39
+2021-02-25T02:54:54Z INFO /app/main.go:35 test log: 40
+2021-02-25T02:54:57Z INFO /app/main.go:35 test log: 41
+2021-02-25T02:55:00Z INFO /app/main.go:35 test log: 42
+2021-02-25T02:55:03Z INFO /app/main.go:35 test log: 43
+2021-02-25T02:55:06Z INFO /app/main.go:35 test log: 44
+2021-02-25T02:55:09Z INFO /app/main.go:35 test log: 45
+2021-02-25T02:55:12Z INFO /app/main.go:35 test log: 46
+2021-02-25T02:55:15Z INFO /app/main.go:35 test log: 47
+2021-02-25T02:55:18Z INFO /app/main.go:35 test log: 48
+2021-02-25T02:55:21Z INFO /app/main.go:35 test log: 49
+2021-02-25T02:55:24Z INFO /app/main.go:35 test log: 50
+2021-02-25T02:55:27Z INFO /app/main.go:35 test log: 51
+2021-02-25T02:55:30Z ERROR /app/main.go:33 error because test: 52
+2021-02-25T02:55:33Z INFO /app/main.go:35 test log: 53
+2021-02-25T02:55:36Z INFO /app/main.go:35 test log: 54
+2021-02-25T02:55:39Z INFO /app/main.go:35 test log: 55
+2021-02-25T02:55:42Z INFO /app/main.go:35 test log: 56
+2021-02-25T02:55:45Z INFO /app/main.go:35 test log: 57
+2021-02-25T02:55:48Z INFO /app/main.go:35 test log: 58
+2021-02-25T02:55:51Z INFO /app/main.go:35 test log: 59
+2021-02-25T02:55:54Z INFO /app/main.go:35 test log: 60
+2021-02-25T02:55:57Z ERROR /app/main.go:33 error because test: 61
+2021-02-25T02:56:00Z INFO /app/main.go:35 test log: 62
+2021-02-25T02:56:03Z INFO /app/main.go:35 test log: 63
+2021-02-25T02:56:06Z INFO /app/main.go:35 test log: 64
+2021-02-25T02:56:09Z INFO /app/main.go:35 test log: 65
+2021-02-25T02:56:12Z INFO /app/main.go:35 test log: 66
+2021-02-25T02:56:15Z ERROR /app/main.go:33 error because test: 67
+2021-02-25T02:56:18Z INFO /app/main.go:35 test log: 68
+2021-02-25T02:56:21Z INFO /app/main.go:35 test log: 69
+2021-02-25T02:56:24Z INFO /app/main.go:35 test log: 70
+2021-02-25T02:56:27Z INFO /app/main.go:35 test log: 71
+2021-02-25T02:56:30Z INFO /app/main.go:35 test log: 72
+2021-02-25T02:56:33Z INFO /app/main.go:35 test log: 73
+2021-02-25T02:56:36Z INFO /app/main.go:35 test log: 74
+2021-02-25T02:56:39Z INFO /app/main.go:35 test log: 75
+2021-02-25T02:56:42Z INFO /app/main.go:35 test log: 76
+2021-02-25T02:56:45Z INFO /app/main.go:35 test log: 77
+2021-02-25T02:56:48Z INFO /app/main.go:35 test log: 78
+2021-02-25T02:56:51Z INFO /app/main.go:35 test log: 79
+2021-02-25T02:56:54Z INFO /app/main.go:35 test log: 80
+2021-02-25T02:56:57Z INFO /app/main.go:35 test log: 81
+2021-02-25T02:57:00Z INFO /app/main.go:35 test log: 82
+2021-02-25T02:57:03Z INFO /app/main.go:35 test log: 83
+2021-02-25T02:57:06Z INFO /app/main.go:35 test log: 84
+2021-02-25T02:57:09Z ERROR /app/main.go:33 error because test: 85
+2021-02-25T02:57:12Z INFO /app/main.go:35 test log: 86
+2021-02-25T02:57:15Z INFO /app/main.go:35 test log: 87
+2021-02-25T02:57:18Z INFO /app/main.go:35 test log: 88
+2021-02-25T02:57:21Z ERROR /app/main.go:33 error because test: 89
+2021-02-25T02:57:24Z INFO /app/main.go:35 test log: 90
+2021-02-25T02:57:27Z INFO /app/main.go:35 test log: 91
+2021-02-25T02:57:30Z INFO /app/main.go:35 test log: 92
+2021-02-25T02:57:33Z INFO /app/main.go:35 test log: 93
+2021-02-25T02:57:36Z INFO /app/main.go:35 test log: 94
+2021-02-25T02:57:39Z INFO /app/main.go:35 test log: 95
+2021-02-25T02:57:42Z INFO /app/main.go:35 test log: 96
+2021-02-25T02:57:45Z INFO /app/main.go:35 test log: 97
+2021-02-25T02:57:48Z INFO /app/main.go:35 test log: 98
+2021-02-25T02:57:51Z INFO /app/main.go:35 test log: 99
+2021-02-25T02:57:54Z INFO /app/main.go:35 test log: 100
+2021-02-25T02:57:57Z INFO /app/main.go:35 test log: 101
+2021-02-25T02:58:00Z ERROR /app/main.go:33 error because test: 102
+2021-02-25T02:58:03Z INFO /app/main.go:35 test log: 103
+2021-02-25T02:58:06Z INFO /app/main.go:35 test log: 104
+2021-02-25T02:58:09Z INFO /app/main.go:35 test log: 105
+2021-02-25T02:58:12Z INFO /app/main.go:35 test log: 106
+2021-02-25T02:58:15Z INFO /app/main.go:35 test log: 107
+2021-02-25T02:58:18Z INFO /app/main.go:35 test log: 108
+2021-02-25T02:58:21Z INFO /app/main.go:35 test log: 109
+2021-02-25T02:58:24Z INFO /app/main.go:35 test log: 110
+2021-02-25T02:58:27Z INFO /app/main.go:35 test log: 111
+2021-02-25T02:58:30Z INFO /app/main.go:35 test log: 112
+2021-02-25T02:58:33Z ERROR /app/main.go:33 error because test: 113
+2021-02-25T02:58:36Z INFO /app/main.go:35 test log: 114
+2021-02-25T02:58:39Z INFO /app/main.go:35 test log: 115
+2021-02-25T02:58:42Z INFO /app/main.go:35 test log: 116
+2021-02-25T02:58:45Z INFO /app/main.go:35 test log: 117
+2021-02-25T02:58:48Z INFO /app/main.go:35 test log: 118
+2021-02-25T02:58:51Z ERROR /app/main.go:33 error because test: 119
+2021-02-25T02:58:54Z INFO /app/main.go:35 test log: 120
+2021-02-25T02:58:57Z INFO /app/main.go:35 test log: 121
+2021-02-25T02:59:00Z INFO /app/main.go:35 test log: 122
+2021-02-25T02:59:03Z ERROR /app/main.go:33 error because test: 123
+2021-02-25T02:59:06Z INFO /app/main.go:35 test log: 124
+2021-02-25T02:59:09Z INFO /app/main.go:35 test log: 125
+2021-02-25T02:59:12Z INFO /app/main.go:35 test log: 126
+2021-02-25T02:59:15Z INFO /app/main.go:35 test log: 127
+2021-02-25T02:59:18Z INFO /app/main.go:35 test log: 128
+2021-02-25T02:59:21Z INFO /app/main.go:35 test log: 129
+2021-02-25T02:59:24Z ERROR /app/main.go:33 error because test: 130
+2021-02-25T02:59:27Z INFO /app/main.go:35 test log: 131
+2021-02-25T02:59:30Z INFO /app/main.go:35 test log: 132
+2021-02-25T02:59:33Z INFO /app/main.go:35 test log: 133
+2021-02-25T02:59:36Z INFO /app/main.go:35 test log: 134
+2021-02-25T02:59:39Z INFO /app/main.go:35 test log: 135
+2021-02-25T02:59:42Z INFO /app/main.go:35 test log: 136
+2021-02-25T02:59:45Z INFO /app/main.go:35 test log: 137
+2021-02-25T02:59:48Z INFO /app/main.go:35 test log: 138
+2021-02-25T02:59:51Z INFO /app/main.go:35 test log: 139
+2021-02-25T02:59:54Z INFO /app/main.go:35 test log: 140
+2021-02-25T02:59:57Z INFO /app/main.go:35 test log: 141
+2021-02-25T03:00:00Z INFO /app/main.go:35 test log: 142
+2021-02-25T03:00:03Z INFO /app/main.go:35 test log: 143
+2021-02-25T03:00:06Z INFO /app/main.go:35 test log: 144
+2021-02-25T03:00:09Z INFO /app/main.go:35 test log: 145
+2021-02-25T03:00:12Z INFO /app/main.go:35 test log: 146
+2021-02-25T03:00:15Z INFO /app/main.go:35 test log: 147
+2021-02-25T03:00:18Z INFO /app/main.go:35 test log: 148
+2021-02-25T03:00:21Z ERROR /app/main.go:33 error because test: 149
+2021-02-25T03:00:24Z INFO /app/main.go:35 test log: 150
+2021-02-25T03:00:27Z INFO /app/main.go:35 test log: 151
+2021-02-25T03:00:30Z ERROR /app/main.go:33 error because test: 152
+2021-02-25T03:00:33Z INFO /app/main.go:35 test log: 153
+2021-02-25T03:00:36Z INFO /app/main.go:35 test log: 154
+2021-02-25T03:00:39Z INFO /app/main.go:35 test log: 155
+2021-02-25T03:00:42Z INFO /app/main.go:35 test log: 156
+2021-02-25T03:00:45Z ERROR /app/main.go:33 error because test: 157
+2021-02-25T03:00:48Z INFO /app/main.go:35 test log: 158
+2021-02-25T03:00:51Z INFO /app/main.go:35 test log: 159
+2021-02-25T03:00:54Z INFO /app/main.go:35 test log: 160
+2021-02-25T03:00:57Z INFO /app/main.go:35 test log: 161
+2021-02-25T03:01:00Z ERROR /app/main.go:33 error because test: 162
+2021-02-25T03:01:03Z INFO /app/main.go:35 test log: 163
+2021-02-25T03:01:06Z INFO /app/main.go:35 test log: 164
+2021-02-25T03:01:09Z INFO /app/main.go:35 test log: 165
+2021-02-25T03:01:12Z INFO /app/main.go:35 test log: 166
+2021-02-25T03:01:15Z INFO /app/main.go:35 test log: 167
+2021-02-25T03:01:18Z INFO /app/main.go:35 test log: 168
+2021-02-25T03:01:21Z INFO /app/main.go:35 test log: 169
+2021-02-25T03:01:24Z INFO /app/main.go:35 test log: 170
+2021-02-25T03:01:27Z INFO /app/main.go:35 test log: 171
+2021-02-25T09:35:49Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T09:35:52Z INFO /app/main.go:35 test log: 2
+2021-02-25T09:35:55Z INFO /app/main.go:35 test log: 3
+2021-02-25T09:35:58Z INFO /app/main.go:35 test log: 4
+2021-02-25T09:36:01Z ERROR /app/main.go:33 error because test: 5
+2021-02-25T09:37:34Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T09:37:37Z INFO /app/main.go:35 test log: 2
+2021-02-25T09:37:40Z INFO /app/main.go:35 test log: 3
+2021-02-25T09:37:43Z INFO /app/main.go:35 test log: 4
+2021-02-25T09:37:46Z ERROR /app/main.go:33 error because test: 5
+2021-02-25T09:37:49Z INFO /app/main.go:35 test log: 6
+2021-02-25T09:37:52Z INFO /app/main.go:35 test log: 7
+2021-02-25T09:37:55Z INFO /app/main.go:35 test log: 8
+2021-02-25T09:37:58Z INFO /app/main.go:35 test log: 9
+2021-02-25T09:38:01Z INFO /app/main.go:35 test log: 10
+2021-02-25T09:38:04Z INFO /app/main.go:35 test log: 11
+2021-02-25T09:38:07Z ERROR /app/main.go:33 error because test: 12
+2021-02-25T09:38:10Z INFO /app/main.go:35 test log: 13
+2021-02-25T09:38:13Z INFO /app/main.go:35 test log: 14
+2021-02-25T09:38:16Z INFO /app/main.go:35 test log: 15
+2021-02-25T09:38:19Z INFO /app/main.go:35 test log: 16
+2021-02-25T09:38:22Z ERROR /app/main.go:33 error because test: 17
+2021-02-25T09:38:25Z INFO /app/main.go:35 test log: 18
+2021-02-25T09:38:28Z INFO /app/main.go:35 test log: 19
+2021-02-25T09:38:31Z INFO /app/main.go:35 test log: 20
+2021-02-25T09:38:34Z INFO /app/main.go:35 test log: 21
+2021-02-25T09:38:37Z INFO /app/main.go:35 test log: 22
+2021-02-25T09:38:40Z INFO /app/main.go:35 test log: 23
+2021-02-25T09:38:43Z INFO /app/main.go:35 test log: 24
+2021-02-25T09:38:46Z INFO /app/main.go:35 test log: 25
+2021-02-25T09:38:49Z INFO /app/main.go:35 test log: 26
+2021-02-25T09:38:52Z INFO /app/main.go:35 test log: 27
+2021-02-25T09:38:55Z INFO /app/main.go:35 test log: 28
+2021-02-25T09:38:58Z INFO /app/main.go:35 test log: 29
+2021-02-25T09:39:01Z INFO /app/main.go:35 test log: 30
+2021-02-25T09:39:04Z ERROR /app/main.go:33 error because test: 31
+2021-02-25T09:39:07Z INFO /app/main.go:35 test log: 32
+2021-02-25T09:39:10Z INFO /app/main.go:35 test log: 33
+2021-02-25T09:39:13Z ERROR /app/main.go:33 error because test: 34
+2021-02-25T09:39:16Z INFO /app/main.go:35 test log: 35
+2021-02-25T09:39:19Z INFO /app/main.go:35 test log: 36
+2021-02-25T09:39:22Z INFO /app/main.go:35 test log: 37
+2021-02-25T09:39:25Z ERROR /app/main.go:33 error because test: 38
+2021-02-25T09:39:28Z INFO /app/main.go:35 test log: 39
+2021-02-25T09:39:31Z INFO /app/main.go:35 test log: 40
+2021-02-25T09:39:34Z INFO /app/main.go:35 test log: 41
+2021-02-25T09:39:37Z INFO /app/main.go:35 test log: 42
+2021-02-25T09:39:40Z INFO /app/main.go:35 test log: 43
+2021-02-25T09:39:43Z INFO /app/main.go:35 test log: 44
+2021-02-25T09:39:46Z INFO /app/main.go:35 test log: 45
+2021-02-25T09:39:49Z INFO /app/main.go:35 test log: 46
+2021-02-25T09:39:52Z INFO /app/main.go:35 test log: 47
+2021-02-25T09:39:55Z INFO /app/main.go:35 test log: 48
+2021-02-25T09:39:58Z INFO /app/main.go:35 test log: 49
+2021-02-25T09:40:01Z INFO /app/main.go:35 test log: 50
+2021-02-25T09:40:04Z INFO /app/main.go:35 test log: 51
+2021-02-25T09:40:07Z ERROR /app/main.go:33 error because test: 52
+2021-02-25T09:40:10Z INFO /app/main.go:35 test log: 53
+2021-02-25T09:40:13Z INFO /app/main.go:35 test log: 54
+2021-02-25T09:40:16Z INFO /app/main.go:35 test log: 55
+2021-02-25T09:40:19Z INFO /app/main.go:35 test log: 56
+2021-02-25T09:40:22Z INFO /app/main.go:35 test log: 57
+2021-02-25T09:40:25Z INFO /app/main.go:35 test log: 58
+2021-02-25T09:40:28Z INFO /app/main.go:35 test log: 59
+2021-02-25T09:40:31Z INFO /app/main.go:35 test log: 60
+2021-02-25T09:40:34Z ERROR /app/main.go:33 error because test: 61
+2021-02-25T09:40:37Z INFO /app/main.go:35 test log: 62
+2021-02-25T09:40:40Z INFO /app/main.go:35 test log: 63
+2021-02-25T09:40:43Z INFO /app/main.go:35 test log: 64
+2021-02-25T09:40:46Z INFO /app/main.go:35 test log: 65
+2021-02-25T09:45:33Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T09:45:36Z INFO /app/main.go:35 test log: 2
+2021-02-25T09:45:39Z INFO /app/main.go:35 test log: 3
+2021-02-25T09:45:42Z INFO /app/main.go:35 test log: 4
+2021-02-25T09:45:45Z ERROR /app/main.go:33 error because test: 5
+2021-02-25T09:45:48Z INFO /app/main.go:35 test log: 6
+2021-02-25T09:45:51Z INFO /app/main.go:35 test log: 7
+2021-02-25T09:45:54Z INFO /app/main.go:35 test log: 8
+2021-02-25T09:45:57Z INFO /app/main.go:35 test log: 9
+2021-02-25T09:46:00Z INFO /app/main.go:35 test log: 10
+2021-02-25T09:46:03Z INFO /app/main.go:35 test log: 11
+2021-02-25T09:46:06Z ERROR /app/main.go:33 error because test: 12
+2021-02-25T09:46:09Z INFO /app/main.go:35 test log: 13
+2021-02-25T09:46:12Z INFO /app/main.go:35 test log: 14
+2021-02-25T09:46:15Z INFO /app/main.go:35 test log: 15
+2021-02-25T09:46:18Z INFO /app/main.go:35 test log: 16
+2021-02-25T09:46:21Z ERROR /app/main.go:33 error because test: 17
+2021-02-25T09:46:24Z INFO /app/main.go:35 test log: 18
+2021-02-25T09:46:27Z INFO /app/main.go:35 test log: 19
+2021-02-25T09:46:30Z INFO /app/main.go:35 test log: 20
+2021-02-25T09:46:33Z INFO /app/main.go:35 test log: 21
+2021-02-25T09:46:36Z INFO /app/main.go:35 test log: 22
+2021-02-25T09:46:39Z INFO /app/main.go:35 test log: 23
+2021-02-25T09:46:42Z INFO /app/main.go:35 test log: 24
+2021-02-25T09:46:45Z INFO /app/main.go:35 test log: 25
+2021-02-25T09:46:48Z INFO /app/main.go:35 test log: 26
+2021-02-25T09:46:51Z INFO /app/main.go:35 test log: 27
+2021-02-25T09:46:54Z INFO /app/main.go:35 test log: 28
+2021-02-25T09:46:57Z INFO /app/main.go:35 test log: 29
+2021-02-25T09:47:00Z INFO /app/main.go:35 test log: 30
+2021-02-25T09:47:03Z ERROR /app/main.go:33 error because test: 31
+2021-02-25T09:47:06Z INFO /app/main.go:35 test log: 32
+2021-02-25T09:47:09Z INFO /app/main.go:35 test log: 33
+2021-02-25T09:47:12Z ERROR /app/main.go:33 error because test: 34
+2021-02-25T09:47:15Z INFO /app/main.go:35 test log: 35
+2021-02-25T09:47:18Z INFO /app/main.go:35 test log: 36
+2021-02-25T09:47:21Z INFO /app/main.go:35 test log: 37
+2021-02-25T09:47:24Z ERROR /app/main.go:33 error because test: 38
+2021-02-25T09:47:27Z INFO /app/main.go:35 test log: 39
+2021-02-25T09:47:30Z INFO /app/main.go:35 test log: 40
+2021-02-25T09:47:33Z INFO /app/main.go:35 test log: 41
+2021-02-25T09:47:36Z INFO /app/main.go:35 test log: 42
+2021-02-25T09:47:39Z INFO /app/main.go:35 test log: 43
+2021-02-25T09:47:42Z INFO /app/main.go:35 test log: 44
+2021-02-25T09:47:45Z INFO /app/main.go:35 test log: 45
+2021-02-25T09:47:48Z INFO /app/main.go:35 test log: 46
+2021-02-25T09:47:51Z INFO /app/main.go:35 test log: 47
+2021-02-25T09:47:54Z INFO /app/main.go:35 test log: 48
+2021-02-25T09:47:57Z INFO /app/main.go:35 test log: 49
+2021-02-25T09:48:00Z INFO /app/main.go:35 test log: 50
+2021-02-25T09:48:04Z INFO /app/main.go:35 test log: 51
+2021-02-25T09:48:07Z ERROR /app/main.go:33 error because test: 52
+2021-02-25T09:48:10Z INFO /app/main.go:35 test log: 53
+2021-02-25T09:48:13Z INFO /app/main.go:35 test log: 54
+2021-02-25T09:48:16Z INFO /app/main.go:35 test log: 55
+2021-02-25T09:48:19Z INFO /app/main.go:35 test log: 56
+2021-02-25T09:48:22Z INFO /app/main.go:35 test log: 57
+2021-02-25T09:48:25Z INFO /app/main.go:35 test log: 58
+2021-02-25T09:48:28Z INFO /app/main.go:35 test log: 59
+2021-02-25T09:48:31Z INFO /app/main.go:35 test log: 60
+2021-02-25T09:48:34Z ERROR /app/main.go:33 error because test: 61
+2021-02-25T09:48:37Z INFO /app/main.go:35 test log: 62
+2021-02-25T09:48:40Z INFO /app/main.go:35 test log: 63
+2021-02-25T09:48:43Z INFO /app/main.go:35 test log: 64
+2021-02-25T09:48:46Z INFO /app/main.go:35 test log: 65
+2021-02-25T09:48:49Z INFO /app/main.go:35 test log: 66
+2021-02-25T09:48:52Z ERROR /app/main.go:33 error because test: 67
+2021-02-25T09:48:55Z INFO /app/main.go:35 test log: 68
+2021-02-25T09:48:58Z INFO /app/main.go:35 test log: 69
+2021-02-25T09:49:01Z INFO /app/main.go:35 test log: 70
+2021-02-25T09:49:04Z INFO /app/main.go:35 test log: 71
+2021-02-25T09:49:07Z INFO /app/main.go:35 test log: 72
+2021-02-25T09:49:10Z INFO /app/main.go:35 test log: 73
+2021-02-25T09:49:13Z INFO /app/main.go:35 test log: 74
+2021-02-25T09:49:16Z INFO /app/main.go:35 test log: 75
+2021-02-25T09:49:19Z INFO /app/main.go:35 test log: 76
+2021-02-25T09:49:22Z INFO /app/main.go:35 test log: 77
+2021-02-25T09:49:25Z INFO /app/main.go:35 test log: 78
+2021-02-25T09:49:28Z INFO /app/main.go:35 test log: 79
+2021-02-25T09:49:31Z INFO /app/main.go:35 test log: 80
+2021-02-25T09:49:34Z INFO /app/main.go:35 test log: 81
+2021-02-25T09:49:37Z INFO /app/main.go:35 test log: 82
+2021-02-25T09:49:40Z INFO /app/main.go:35 test log: 83
+2021-02-25T09:49:43Z INFO /app/main.go:35 test log: 84
+2021-02-25T09:49:46Z ERROR /app/main.go:33 error because test: 85
+2021-02-25T09:49:49Z INFO /app/main.go:35 test log: 86
+2021-02-25T09:49:52Z INFO /app/main.go:35 test log: 87
+2021-02-25T09:49:55Z INFO /app/main.go:35 test log: 88
+2021-02-25T09:49:58Z ERROR /app/main.go:33 error because test: 89
+2021-02-25T09:50:01Z INFO /app/main.go:35 test log: 90
+2021-02-25T09:50:04Z INFO /app/main.go:35 test log: 91
+2021-02-25T09:50:07Z INFO /app/main.go:35 test log: 92
+2021-02-25T09:50:10Z INFO /app/main.go:35 test log: 93
+2021-02-25T09:50:13Z INFO /app/main.go:35 test log: 94
+2021-02-25T09:50:16Z INFO /app/main.go:35 test log: 95
+2021-02-25T09:50:19Z INFO /app/main.go:35 test log: 96
+2021-02-25T09:50:22Z INFO /app/main.go:35 test log: 97
+2021-02-25T09:50:25Z INFO /app/main.go:35 test log: 98
+2021-02-25T09:50:28Z INFO /app/main.go:35 test log: 99
+2021-02-25T09:50:31Z INFO /app/main.go:35 test log: 100
+2021-02-25T09:50:34Z INFO /app/main.go:35 test log: 101
+2021-02-25T09:50:37Z ERROR /app/main.go:33 error because test: 102
+2021-02-25T09:50:40Z INFO /app/main.go:35 test log: 103
+2021-02-25T09:50:43Z INFO /app/main.go:35 test log: 104
+2021-02-25T09:50:46Z INFO /app/main.go:35 test log: 105
+2021-02-25T09:50:49Z INFO /app/main.go:35 test log: 106
+2021-02-25T09:50:52Z INFO /app/main.go:35 test log: 107
+2021-02-25T09:50:55Z INFO /app/main.go:35 test log: 108
+2021-02-25T09:50:58Z INFO /app/main.go:35 test log: 109
+2021-02-25T09:51:01Z INFO /app/main.go:35 test log: 110
+2021-02-25T09:51:04Z INFO /app/main.go:35 test log: 111
+2021-02-25T09:51:07Z INFO /app/main.go:35 test log: 112
+2021-02-25T09:51:10Z ERROR /app/main.go:33 error because test: 113
+2021-02-25T09:51:13Z INFO /app/main.go:35 test log: 114
+2021-02-25T09:51:16Z INFO /app/main.go:35 test log: 115
+2021-02-25T09:51:19Z INFO /app/main.go:35 test log: 116
+2021-02-25T09:51:22Z INFO /app/main.go:35 test log: 117
+2021-02-25T09:51:25Z INFO /app/main.go:35 test log: 118
+2021-02-25T09:51:28Z ERROR /app/main.go:33 error because test: 119
+2021-02-25T09:51:31Z INFO /app/main.go:35 test log: 120
+2021-02-25T09:51:34Z INFO /app/main.go:35 test log: 121
+2021-02-25T09:51:37Z INFO /app/main.go:35 test log: 122
+2021-02-25T09:51:40Z ERROR /app/main.go:33 error because test: 123
+2021-02-25T09:51:43Z INFO /app/main.go:35 test log: 124
+2021-02-25T09:51:46Z INFO /app/main.go:35 test log: 125
+2021-02-25T09:51:49Z INFO /app/main.go:35 test log: 126
+2021-02-25T09:51:52Z INFO /app/main.go:35 test log: 127
+2021-02-25T09:51:55Z INFO /app/main.go:35 test log: 128
+2021-02-25T09:51:58Z INFO /app/main.go:35 test log: 129
+2021-02-25T09:52:01Z ERROR /app/main.go:33 error because test: 130
+2021-02-25T09:52:04Z INFO /app/main.go:35 test log: 131
+2021-02-25T09:52:07Z INFO /app/main.go:35 test log: 132
+2021-02-25T09:52:10Z INFO /app/main.go:35 test log: 133
+2021-02-25T09:52:13Z INFO /app/main.go:35 test log: 134
+2021-02-25T09:52:16Z INFO /app/main.go:35 test log: 135
+2021-02-25T09:52:19Z INFO /app/main.go:35 test log: 136
+2021-02-25T09:52:22Z INFO /app/main.go:35 test log: 137
+2021-02-25T09:52:25Z INFO /app/main.go:35 test log: 138
+2021-02-25T09:52:28Z INFO /app/main.go:35 test log: 139
+2021-02-25T09:52:31Z INFO /app/main.go:35 test log: 140
+2021-02-25T09:52:34Z INFO /app/main.go:35 test log: 141
+2021-02-25T09:52:37Z INFO /app/main.go:35 test log: 142
+2021-02-25T09:52:40Z INFO /app/main.go:35 test log: 143
+2021-02-25T09:52:43Z INFO /app/main.go:35 test log: 144
+2021-02-25T09:52:46Z INFO /app/main.go:35 test log: 145
+2021-02-25T09:52:49Z INFO /app/main.go:35 test log: 146
+2021-02-25T09:52:52Z INFO /app/main.go:35 test log: 147
+2021-02-25T09:52:55Z INFO /app/main.go:35 test log: 148
+2021-02-25T09:52:58Z ERROR /app/main.go:33 error because test: 149
+2021-02-25T09:53:01Z INFO /app/main.go:35 test log: 150
+2021-02-25T09:53:04Z INFO /app/main.go:35 test log: 151
+2021-02-25T09:53:07Z ERROR /app/main.go:33 error because test: 152
+2021-02-25T09:53:10Z INFO /app/main.go:35 test log: 153
+2021-02-25T09:53:13Z INFO /app/main.go:35 test log: 154
+2021-02-25T09:53:16Z INFO /app/main.go:35 test log: 155
+2021-02-25T09:53:19Z INFO /app/main.go:35 test log: 156
+2021-02-25T09:53:22Z ERROR /app/main.go:33 error because test: 157
+2021-02-25T09:53:25Z INFO /app/main.go:35 test log: 158
+2021-02-25T09:53:28Z INFO /app/main.go:35 test log: 159
+2021-02-25T09:53:31Z INFO /app/main.go:35 test log: 160
+2021-02-25T09:53:34Z INFO /app/main.go:35 test log: 161
+2021-02-25T09:53:37Z ERROR /app/main.go:33 error because test: 162
+2021-02-25T09:53:40Z INFO /app/main.go:35 test log: 163
+2021-02-25T09:53:43Z INFO /app/main.go:35 test log: 164
+2021-02-25T09:53:46Z INFO /app/main.go:35 test log: 165
+2021-02-25T09:53:49Z INFO /app/main.go:35 test log: 166
+2021-02-25T09:53:52Z INFO /app/main.go:35 test log: 167
+2021-02-25T09:53:55Z INFO /app/main.go:35 test log: 168
+2021-02-25T09:53:58Z INFO /app/main.go:35 test log: 169
+2021-02-25T09:54:01Z INFO /app/main.go:35 test log: 170
+2021-02-25T09:54:04Z INFO /app/main.go:35 test log: 171
+2021-02-25T09:54:07Z INFO /app/main.go:35 test log: 172
+2021-02-25T09:54:10Z INFO /app/main.go:35 test log: 173
+2021-02-25T09:54:13Z INFO /app/main.go:35 test log: 174
+2021-02-25T09:54:16Z INFO /app/main.go:35 test log: 175
+2021-02-25T09:54:19Z INFO /app/main.go:35 test log: 176
+2021-02-25T09:54:22Z INFO /app/main.go:35 test log: 177
+2021-02-25T09:54:25Z INFO /app/main.go:35 test log: 178
+2021-02-25T09:54:28Z ERROR /app/main.go:33 error because test: 179
+2021-02-25T09:54:31Z INFO /app/main.go:35 test log: 180
+2021-02-25T09:54:34Z INFO /app/main.go:35 test log: 181
+2021-02-25T09:54:37Z INFO /app/main.go:35 test log: 182
+2021-02-25T09:54:40Z INFO /app/main.go:35 test log: 183
+2021-02-25T09:54:43Z INFO /app/main.go:35 test log: 184
+2021-02-25T09:54:46Z INFO /app/main.go:35 test log: 185
+2021-02-25T09:54:49Z INFO /app/main.go:35 test log: 186
+2021-02-25T09:54:52Z INFO /app/main.go:35 test log: 187
+2021-02-25T09:54:55Z INFO /app/main.go:35 test log: 188
+2021-02-25T09:54:58Z INFO /app/main.go:35 test log: 189
+2021-02-25T09:55:01Z INFO /app/main.go:35 test log: 190
+2021-02-25T09:55:04Z INFO /app/main.go:35 test log: 191
+2021-02-25T09:55:07Z INFO /app/main.go:35 test log: 192
+2021-02-25T09:55:10Z INFO /app/main.go:35 test log: 193
+2021-02-25T09:55:13Z INFO /app/main.go:35 test log: 194
+2021-02-25T09:55:16Z INFO /app/main.go:35 test log: 195
+2021-02-25T09:55:19Z INFO /app/main.go:35 test log: 196
+2021-02-25T09:55:22Z INFO /app/main.go:35 test log: 197
+2021-02-25T09:55:25Z INFO /app/main.go:35 test log: 198
+2021-02-25T09:55:28Z INFO /app/main.go:35 test log: 199
+2021-02-25T09:55:31Z INFO /app/main.go:35 test log: 200
+2021-02-25T09:55:34Z INFO /app/main.go:35 test log: 201
+2021-02-25T09:55:37Z INFO /app/main.go:35 test log: 202
+2021-02-25T09:55:40Z ERROR /app/main.go:33 error because test: 203
+2021-02-25T09:55:43Z INFO /app/main.go:35 test log: 204
+2021-02-25T09:55:46Z INFO /app/main.go:35 test log: 205
+2021-02-25T09:55:49Z INFO /app/main.go:35 test log: 206
+2021-02-25T09:55:52Z INFO /app/main.go:35 test log: 207
+2021-02-25T09:55:55Z INFO /app/main.go:35 test log: 208
+2021-02-25T09:55:58Z INFO /app/main.go:35 test log: 209
+2021-02-25T09:56:01Z INFO /app/main.go:35 test log: 210
+2021-02-25T09:56:04Z INFO /app/main.go:35 test log: 211
+2021-02-25T09:56:07Z ERROR /app/main.go:33 error because test: 212
+2021-02-25T09:56:10Z INFO /app/main.go:35 test log: 213
+2021-02-25T09:56:13Z INFO /app/main.go:35 test log: 214
+2021-02-25T09:56:16Z INFO /app/main.go:35 test log: 215
+2021-02-25T09:56:19Z INFO /app/main.go:35 test log: 216
+2021-02-25T09:56:22Z INFO /app/main.go:35 test log: 217
+2021-02-25T09:56:25Z INFO /app/main.go:35 test log: 218
+2021-02-25T09:56:28Z INFO /app/main.go:35 test log: 219
+2021-02-25T09:56:31Z INFO /app/main.go:35 test log: 220
+2021-02-25T09:56:34Z INFO /app/main.go:35 test log: 221
+2021-02-25T09:56:37Z ERROR /app/main.go:33 error because test: 222
+2021-02-25T09:56:40Z INFO /app/main.go:35 test log: 223
+2021-02-25T09:56:43Z INFO /app/main.go:35 test log: 224
+2021-02-25T09:56:46Z INFO /app/main.go:35 test log: 225
+2021-02-25T09:56:49Z INFO /app/main.go:35 test log: 226
+2021-02-25T09:56:52Z INFO /app/main.go:35 test log: 227
+2021-02-25T09:56:55Z INFO /app/main.go:35 test log: 228
+2021-02-25T09:56:58Z INFO /app/main.go:35 test log: 229
+2021-02-25T09:57:01Z INFO /app/main.go:35 test log: 230
+2021-02-25T09:57:04Z INFO /app/main.go:35 test log: 231
+2021-02-25T09:57:07Z INFO /app/main.go:35 test log: 232
+2021-02-25T09:57:10Z INFO /app/main.go:35 test log: 233
+2021-02-25T09:57:13Z INFO /app/main.go:35 test log: 234
+2021-02-25T09:57:16Z ERROR /app/main.go:33 error because test: 235
+2021-02-25T09:57:19Z INFO /app/main.go:35 test log: 236
+2021-02-25T09:57:22Z INFO /app/main.go:35 test log: 237
+2021-02-25T09:57:25Z INFO /app/main.go:35 test log: 238
+2021-02-25T09:57:28Z INFO /app/main.go:35 test log: 239
+2021-02-25T09:57:31Z INFO /app/main.go:35 test log: 240
+2021-02-25T09:57:34Z INFO /app/main.go:35 test log: 241
+2021-02-25T09:57:37Z ERROR /app/main.go:33 error because test: 242
+2021-02-25T09:57:40Z ERROR /app/main.go:33 error because test: 243
+2021-02-25T09:57:43Z INFO /app/main.go:35 test log: 244
+2021-02-25T09:57:46Z INFO /app/main.go:35 test log: 245
+2021-02-25T09:57:49Z INFO /app/main.go:35 test log: 246
+2021-02-25T09:57:52Z INFO /app/main.go:35 test log: 247
+2021-02-25T09:57:55Z INFO /app/main.go:35 test log: 248
+2021-02-25T09:57:58Z INFO /app/main.go:35 test log: 249
+2021-02-25T09:58:01Z ERROR /app/main.go:33 error because test: 250
+2021-02-25T09:58:04Z INFO /app/main.go:35 test log: 251
+2021-02-25T09:58:07Z INFO /app/main.go:35 test log: 252
+2021-02-25T09:58:10Z INFO /app/main.go:35 test log: 253
+2021-02-25T09:58:13Z INFO /app/main.go:35 test log: 254
+2021-02-25T09:58:16Z INFO /app/main.go:35 test log: 255
+2021-02-25T09:58:19Z INFO /app/main.go:35 test log: 256
+2021-02-25T09:58:22Z INFO /app/main.go:35 test log: 257
+2021-02-25T09:58:25Z INFO /app/main.go:35 test log: 258
+2021-02-25T09:58:28Z INFO /app/main.go:35 test log: 259
+2021-02-25T09:58:31Z INFO /app/main.go:35 test log: 260
+2021-02-25T09:58:34Z INFO /app/main.go:35 test log: 261
+2021-02-25T09:58:37Z INFO /app/main.go:35 test log: 262
+2021-02-25T09:58:40Z INFO /app/main.go:35 test log: 263
+2021-02-25T09:58:43Z INFO /app/main.go:35 test log: 264
+2021-02-25T09:58:46Z ERROR /app/main.go:33 error because test: 265
+2021-02-25T09:58:49Z INFO /app/main.go:35 test log: 266
+2021-02-25T09:58:52Z INFO /app/main.go:35 test log: 267
+2021-02-25T09:58:55Z INFO /app/main.go:35 test log: 268
+2021-02-25T09:58:58Z INFO /app/main.go:35 test log: 269
+2021-02-25T09:59:01Z INFO /app/main.go:35 test log: 270
+2021-02-25T09:59:04Z INFO /app/main.go:35 test log: 271
+2021-02-25T09:59:07Z INFO /app/main.go:35 test log: 272
+2021-02-25T09:59:10Z INFO /app/main.go:35 test log: 273
+2021-02-25T09:59:13Z INFO /app/main.go:35 test log: 274
+2021-02-25T09:59:16Z INFO /app/main.go:35 test log: 275
+2021-02-25T09:59:19Z INFO /app/main.go:35 test log: 276
+2021-02-25T09:59:22Z INFO /app/main.go:35 test log: 277
+2021-02-25T09:59:25Z INFO /app/main.go:35 test log: 278
+2021-02-25T09:59:28Z INFO /app/main.go:35 test log: 279
+2021-02-25T09:59:31Z INFO /app/main.go:35 test log: 280
+2021-02-25T09:59:34Z INFO /app/main.go:35 test log: 281
+2021-02-25T09:59:37Z INFO /app/main.go:35 test log: 282
+2021-02-25T09:59:40Z INFO /app/main.go:35 test log: 283
+2021-02-25T09:59:43Z ERROR /app/main.go:33 error because test: 284
+2021-02-25T09:59:46Z INFO /app/main.go:35 test log: 285
+2021-02-25T09:59:49Z ERROR /app/main.go:33 error because test: 286
+2021-02-25T09:59:52Z INFO /app/main.go:35 test log: 287
+2021-02-25T09:59:55Z INFO /app/main.go:35 test log: 288
+2021-02-25T09:59:58Z INFO /app/main.go:35 test log: 289
+2021-02-25T10:00:01Z INFO /app/main.go:35 test log: 290
+2021-02-25T10:00:04Z INFO /app/main.go:35 test log: 291
+2021-02-25T10:00:07Z ERROR /app/main.go:33 error because test: 292
+2021-02-25T10:00:10Z ERROR /app/main.go:33 error because test: 293
+2021-02-25T10:00:13Z INFO /app/main.go:35 test log: 294
+2021-02-25T10:00:16Z ERROR /app/main.go:33 error because test: 295
+2021-02-25T10:00:19Z INFO /app/main.go:35 test log: 296
+2021-02-25T10:00:22Z INFO /app/main.go:35 test log: 297
+2021-02-25T10:00:25Z INFO /app/main.go:35 test log: 298
+2021-02-25T10:00:28Z INFO /app/main.go:35 test log: 299
+2021-02-25T10:00:31Z INFO /app/main.go:35 test log: 300
+2021-02-25T10:00:34Z INFO /app/main.go:35 test log: 301
+2021-02-25T10:00:37Z INFO /app/main.go:35 test log: 302
+2021-02-25T10:00:40Z INFO /app/main.go:35 test log: 303
+2021-02-25T10:00:43Z INFO /app/main.go:35 test log: 304
+2021-02-25T10:00:46Z INFO /app/main.go:35 test log: 305
+2021-02-25T10:00:49Z INFO /app/main.go:35 test log: 306
+2021-02-25T10:00:52Z INFO /app/main.go:35 test log: 307
+2021-02-25T10:00:55Z INFO /app/main.go:35 test log: 308
+2021-02-25T10:00:58Z INFO /app/main.go:35 test log: 309
+2021-02-25T10:01:01Z INFO /app/main.go:35 test log: 310
+2021-02-25T10:01:04Z INFO /app/main.go:35 test log: 311
+2021-02-25T10:01:07Z INFO /app/main.go:35 test log: 312
+2021-02-25T10:01:10Z INFO /app/main.go:35 test log: 313
+2021-02-25T10:01:13Z INFO /app/main.go:35 test log: 314
+2021-02-25T10:01:16Z INFO /app/main.go:35 test log: 315
+2021-02-25T10:01:19Z INFO /app/main.go:35 test log: 316
+2021-02-25T10:01:22Z INFO /app/main.go:35 test log: 317
+2021-02-25T10:01:25Z INFO /app/main.go:35 test log: 318
+2021-02-25T10:01:28Z INFO /app/main.go:35 test log: 319
+2021-02-25T10:01:31Z INFO /app/main.go:35 test log: 320
+2021-02-25T10:01:34Z INFO /app/main.go:35 test log: 321
+2021-02-25T10:01:37Z INFO /app/main.go:35 test log: 322
+2021-02-25T10:01:40Z ERROR /app/main.go:33 error because test: 323
+2021-02-25T10:01:43Z INFO /app/main.go:35 test log: 324
+2021-02-25T10:01:46Z INFO /app/main.go:35 test log: 325
+2021-02-25T10:01:49Z INFO /app/main.go:35 test log: 326
+2021-02-25T10:01:52Z INFO /app/main.go:35 test log: 327
+2021-02-25T10:01:55Z INFO /app/main.go:35 test log: 328
+2021-02-25T10:01:58Z INFO /app/main.go:35 test log: 329
+2021-02-25T10:02:01Z INFO /app/main.go:35 test log: 330
+2021-02-25T10:02:04Z INFO /app/main.go:35 test log: 331
+2021-02-25T10:02:07Z ERROR /app/main.go:33 error because test: 332
+2021-02-25T10:02:10Z INFO /app/main.go:35 test log: 333
+2021-02-25T10:02:13Z INFO /app/main.go:35 test log: 334
+2021-02-25T10:02:16Z INFO /app/main.go:35 test log: 335
+2021-02-25T10:02:19Z INFO /app/main.go:35 test log: 336
+2021-02-25T10:02:22Z INFO /app/main.go:35 test log: 337
+2021-02-25T10:02:25Z INFO /app/main.go:35 test log: 338
+2021-02-25T10:02:28Z INFO /app/main.go:35 test log: 339
+2021-02-25T10:02:31Z INFO /app/main.go:35 test log: 340
+2021-02-25T10:02:34Z INFO /app/main.go:35 test log: 341
+2021-02-25T10:02:37Z ERROR /app/main.go:33 error because test: 342
+2021-02-25T10:02:40Z INFO /app/main.go:35 test log: 343
+2021-02-25T10:02:43Z INFO /app/main.go:35 test log: 344
+2021-02-25T10:02:46Z INFO /app/main.go:35 test log: 345
+2021-02-25T10:02:49Z ERROR /app/main.go:33 error because test: 346
+2021-02-25T10:02:52Z INFO /app/main.go:35 test log: 347
+2021-02-25T10:02:55Z INFO /app/main.go:35 test log: 348
+2021-02-25T10:02:58Z INFO /app/main.go:35 test log: 349
+2021-02-25T10:03:01Z ERROR /app/main.go:33 error because test: 350
+2021-02-25T10:03:04Z INFO /app/main.go:35 test log: 351
+2021-02-25T10:03:07Z INFO /app/main.go:35 test log: 352
+2021-02-25T10:03:10Z INFO /app/main.go:35 test log: 353
+2021-02-25T10:03:13Z INFO /app/main.go:35 test log: 354
+2021-02-25T10:03:16Z INFO /app/main.go:35 test log: 355
+2021-02-25T10:03:19Z INFO /app/main.go:35 test log: 356
+2021-02-25T10:03:22Z INFO /app/main.go:35 test log: 357
+2021-02-25T10:03:25Z INFO /app/main.go:35 test log: 358
+2021-02-25T10:03:28Z INFO /app/main.go:35 test log: 359
+2021-02-25T10:03:31Z INFO /app/main.go:35 test log: 360
+2021-02-25T10:03:34Z INFO /app/main.go:35 test log: 361
+2021-02-25T10:03:37Z INFO /app/main.go:35 test log: 362
+2021-02-25T10:03:40Z INFO /app/main.go:35 test log: 363
+2021-02-25T10:03:43Z INFO /app/main.go:35 test log: 364
+2021-02-25T10:03:46Z INFO /app/main.go:35 test log: 365
+2021-02-25T10:03:49Z ERROR /app/main.go:33 error because test: 366
+2021-02-25T10:03:52Z INFO /app/main.go:35 test log: 367
+2021-02-25T10:03:55Z INFO /app/main.go:35 test log: 368
+2021-02-25T10:03:58Z INFO /app/main.go:35 test log: 369
+2021-02-25T10:04:01Z INFO /app/main.go:35 test log: 370
+2021-02-25T10:04:04Z INFO /app/main.go:35 test log: 371
+2021-02-25T10:04:07Z INFO /app/main.go:35 test log: 372
+2021-02-25T10:04:10Z INFO /app/main.go:35 test log: 373
+2021-02-25T10:04:13Z INFO /app/main.go:35 test log: 374
+2021-02-25T10:04:16Z INFO /app/main.go:35 test log: 375
+2021-02-25T10:04:19Z INFO /app/main.go:35 test log: 376
+2021-02-25T10:04:22Z INFO /app/main.go:35 test log: 377
+2021-02-25T10:04:25Z INFO /app/main.go:35 test log: 378
+2021-02-25T10:04:28Z INFO /app/main.go:35 test log: 379
+2021-02-25T10:04:31Z INFO /app/main.go:35 test log: 380
+2021-02-25T10:04:34Z ERROR /app/main.go:33 error because test: 381
+2021-02-25T10:04:37Z INFO /app/main.go:35 test log: 382
+2021-02-25T10:04:40Z INFO /app/main.go:35 test log: 383
+2021-02-25T10:04:43Z INFO /app/main.go:35 test log: 384
+2021-02-25T10:04:46Z ERROR /app/main.go:33 error because test: 385
+2021-02-25T10:04:49Z INFO /app/main.go:35 test log: 386
+2021-02-25T10:04:52Z INFO /app/main.go:35 test log: 387
+2021-02-25T10:04:55Z INFO /app/main.go:35 test log: 388
+2021-02-25T10:04:58Z INFO /app/main.go:35 test log: 389
+2021-02-25T10:05:01Z INFO /app/main.go:35 test log: 390
+2021-02-25T10:05:04Z INFO /app/main.go:35 test log: 391
+2021-02-25T10:05:07Z INFO /app/main.go:35 test log: 392
+2021-02-25T10:05:10Z INFO /app/main.go:35 test log: 393
+2021-02-25T10:05:13Z INFO /app/main.go:35 test log: 394
+2021-02-25T10:05:16Z INFO /app/main.go:35 test log: 395
+2021-02-25T10:05:19Z ERROR /app/main.go:33 error because test: 396
+2021-02-25T10:05:22Z INFO /app/main.go:35 test log: 397
+2021-02-25T10:05:25Z INFO /app/main.go:35 test log: 398
+2021-02-25T10:05:28Z INFO /app/main.go:35 test log: 399
+2021-02-25T10:05:31Z INFO /app/main.go:35 test log: 400
+2021-02-25T10:05:34Z INFO /app/main.go:35 test log: 401
+2021-02-25T10:05:37Z INFO /app/main.go:35 test log: 402
+2021-02-25T10:05:40Z INFO /app/main.go:35 test log: 403
+2021-02-25T10:05:43Z INFO /app/main.go:35 test log: 404
+2021-02-25T10:05:46Z INFO /app/main.go:35 test log: 405
+2021-02-25T10:05:49Z INFO /app/main.go:35 test log: 406
+2021-02-25T10:05:52Z INFO /app/main.go:35 test log: 407
+2021-02-25T10:05:55Z INFO /app/main.go:35 test log: 408
+2021-02-25T10:05:58Z INFO /app/main.go:35 test log: 409
+2021-02-25T10:06:01Z INFO /app/main.go:35 test log: 410
+2021-02-25T10:06:04Z INFO /app/main.go:35 test log: 411
+2021-02-25T10:06:07Z INFO /app/main.go:35 test log: 412
+2021-02-25T10:06:10Z INFO /app/main.go:35 test log: 413
+2021-02-25T10:06:13Z INFO /app/main.go:35 test log: 414
+2021-02-25T10:06:16Z INFO /app/main.go:35 test log: 415
+2021-02-25T10:06:19Z INFO /app/main.go:35 test log: 416
+2021-02-25T10:06:22Z INFO /app/main.go:35 test log: 417
+2021-02-25T10:06:25Z INFO /app/main.go:35 test log: 418
+2021-02-25T10:06:28Z INFO /app/main.go:35 test log: 419
+2021-02-25T10:06:31Z INFO /app/main.go:35 test log: 420
+2021-02-25T10:06:34Z ERROR /app/main.go:33 error because test: 421
+2021-02-25T10:06:37Z ERROR /app/main.go:33 error because test: 422
+2021-02-25T10:06:40Z ERROR /app/main.go:33 error because test: 423
+2021-02-25T10:06:43Z INFO /app/main.go:35 test log: 424
+2021-02-25T10:06:46Z INFO /app/main.go:35 test log: 425
+2021-02-25T10:06:49Z INFO /app/main.go:35 test log: 426
+2021-02-25T10:06:52Z INFO /app/main.go:35 test log: 427
+2021-02-25T10:06:55Z INFO /app/main.go:35 test log: 428
+2021-02-25T10:06:58Z INFO /app/main.go:35 test log: 429
+2021-02-25T10:07:01Z INFO /app/main.go:35 test log: 430
+2021-02-25T10:07:04Z INFO /app/main.go:35 test log: 431
+2021-02-25T10:07:07Z INFO /app/main.go:35 test log: 432
+2021-02-25T10:07:10Z INFO /app/main.go:35 test log: 433
+2021-02-25T10:07:13Z INFO /app/main.go:35 test log: 434
+2021-02-25T10:07:16Z INFO /app/main.go:35 test log: 435
+2021-02-25T10:07:19Z INFO /app/main.go:35 test log: 436
+2021-02-25T10:07:22Z INFO /app/main.go:35 test log: 437
+2021-02-25T10:07:25Z INFO /app/main.go:35 test log: 438
+2021-02-25T10:07:28Z INFO /app/main.go:35 test log: 439
+2021-02-25T10:07:31Z INFO /app/main.go:35 test log: 440
+2021-02-25T10:07:34Z INFO /app/main.go:35 test log: 441
+2021-02-25T10:07:37Z INFO /app/main.go:35 test log: 442
+2021-02-25T10:07:40Z INFO /app/main.go:35 test log: 443
+2021-02-25T10:07:43Z INFO /app/main.go:35 test log: 444
+2021-02-25T10:07:46Z INFO /app/main.go:35 test log: 445
+2021-02-25T10:07:49Z INFO /app/main.go:35 test log: 446
+2021-02-25T10:07:52Z INFO /app/main.go:35 test log: 447
+2021-02-25T10:07:55Z INFO /app/main.go:35 test log: 448
+2021-02-25T10:07:58Z INFO /app/main.go:35 test log: 449
+2021-02-25T10:08:01Z INFO /app/main.go:35 test log: 450
+2021-02-25T10:08:04Z INFO /app/main.go:35 test log: 451
+2021-02-25T10:08:07Z INFO /app/main.go:35 test log: 452
+2021-02-25T10:08:10Z INFO /app/main.go:35 test log: 453
+2021-02-25T10:08:13Z INFO /app/main.go:35 test log: 454
+2021-02-25T10:08:16Z INFO /app/main.go:35 test log: 455
+2021-02-25T10:08:19Z ERROR /app/main.go:33 error because test: 456
+2021-02-25T10:08:22Z INFO /app/main.go:35 test log: 457
+2021-02-25T10:08:25Z INFO /app/main.go:35 test log: 458
+2021-02-25T10:08:28Z INFO /app/main.go:35 test log: 459
+2021-02-25T10:08:31Z INFO /app/main.go:35 test log: 460
+2021-02-25T10:08:34Z INFO /app/main.go:35 test log: 461
+2021-02-25T10:08:37Z ERROR /app/main.go:33 error because test: 462
+2021-02-25T10:08:40Z INFO /app/main.go:35 test log: 463
+2021-02-25T10:08:43Z INFO /app/main.go:35 test log: 464
+2021-02-25T10:08:46Z INFO /app/main.go:35 test log: 465
+2021-02-25T10:08:49Z ERROR /app/main.go:33 error because test: 466
+2021-02-25T10:08:52Z INFO /app/main.go:35 test log: 467
+2021-02-25T10:08:55Z ERROR /app/main.go:33 error because test: 468
+2021-02-25T10:08:58Z INFO /app/main.go:35 test log: 469
+2021-02-25T10:09:01Z INFO /app/main.go:35 test log: 470
+2021-02-25T10:09:04Z INFO /app/main.go:35 test log: 471
+2021-02-25T10:09:07Z INFO /app/main.go:35 test log: 472
+2021-02-25T10:09:10Z ERROR /app/main.go:33 error because test: 473
+2021-02-25T10:09:13Z INFO /app/main.go:35 test log: 474
+2021-02-25T10:09:16Z INFO /app/main.go:35 test log: 475
+2021-02-25T10:09:19Z INFO /app/main.go:35 test log: 476
+2021-02-25T10:09:22Z INFO /app/main.go:35 test log: 477
+2021-02-25T10:09:25Z INFO /app/main.go:35 test log: 478
+2021-02-25T10:09:28Z INFO /app/main.go:35 test log: 479
+2021-02-25T10:09:31Z INFO /app/main.go:35 test log: 480
+2021-02-25T10:09:34Z INFO /app/main.go:35 test log: 481
+2021-02-25T10:09:37Z INFO /app/main.go:35 test log: 482
+2021-02-25T10:09:40Z INFO /app/main.go:35 test log: 483
+2021-02-25T10:09:43Z INFO /app/main.go:35 test log: 484
+2021-02-25T10:09:46Z INFO /app/main.go:35 test log: 485
+2021-02-25T10:09:49Z ERROR /app/main.go:33 error because test: 486
+2021-02-25T10:09:52Z INFO /app/main.go:35 test log: 487
+2021-02-25T10:09:55Z INFO /app/main.go:35 test log: 488
+2021-02-25T10:09:58Z INFO /app/main.go:35 test log: 489
+2021-02-25T10:10:01Z INFO /app/main.go:35 test log: 490
+2021-02-25T10:10:04Z INFO /app/main.go:35 test log: 491
+2021-02-25T10:10:07Z INFO /app/main.go:35 test log: 492
+2021-02-25T10:10:10Z INFO /app/main.go:35 test log: 493
+2021-02-25T10:10:13Z INFO /app/main.go:35 test log: 494
+2021-02-25T10:10:16Z INFO /app/main.go:35 test log: 495
+2021-02-25T10:10:19Z INFO /app/main.go:35 test log: 496
+2021-02-25T10:10:22Z INFO /app/main.go:35 test log: 497
+2021-02-25T10:10:25Z INFO /app/main.go:35 test log: 498
+2021-02-25T10:10:28Z INFO /app/main.go:35 test log: 499
+2021-02-25T10:10:31Z INFO /app/main.go:35 test log: 500
+2021-02-25T10:10:34Z ERROR /app/main.go:33 error because test: 501
+2021-02-25T10:10:37Z INFO /app/main.go:35 test log: 502
+2021-02-25T10:10:40Z INFO /app/main.go:35 test log: 503
+2021-02-25T10:10:43Z INFO /app/main.go:35 test log: 504
+2021-02-25T10:10:46Z INFO /app/main.go:35 test log: 505
+2021-02-25T10:10:49Z INFO /app/main.go:35 test log: 506
+2021-02-25T10:10:52Z ERROR /app/main.go:33 error because test: 507
+2021-02-25T10:10:55Z INFO /app/main.go:35 test log: 508
+2021-02-25T10:10:58Z INFO /app/main.go:35 test log: 509
+2021-02-25T10:11:01Z INFO /app/main.go:35 test log: 510
+2021-02-25T10:11:04Z ERROR /app/main.go:33 error because test: 511
+2021-02-25T10:11:07Z INFO /app/main.go:35 test log: 512
+2021-02-25T10:11:10Z ERROR /app/main.go:33 error because test: 513
+2021-02-25T10:11:13Z INFO /app/main.go:35 test log: 514
+2021-02-25T10:11:16Z INFO /app/main.go:35 test log: 515
+2021-02-25T10:11:19Z INFO /app/main.go:35 test log: 516
+2021-02-25T10:11:22Z INFO /app/main.go:35 test log: 517
+2021-02-25T10:11:25Z INFO /app/main.go:35 test log: 518
+2021-02-25T10:11:28Z INFO /app/main.go:35 test log: 519
+2021-02-25T10:11:31Z INFO /app/main.go:35 test log: 520
+2021-02-25T10:11:34Z INFO /app/main.go:35 test log: 521
+2021-02-25T10:11:37Z INFO /app/main.go:35 test log: 522
+2021-02-25T10:11:40Z INFO /app/main.go:35 test log: 523
+2021-02-25T10:11:43Z INFO /app/main.go:35 test log: 524
+2021-02-25T10:11:46Z INFO /app/main.go:35 test log: 525
+2021-02-25T10:11:49Z ERROR /app/main.go:33 error because test: 526
+2021-02-25T10:11:52Z INFO /app/main.go:35 test log: 527
+2021-02-25T10:11:55Z INFO /app/main.go:35 test log: 528
+2021-02-25T10:11:58Z INFO /app/main.go:35 test log: 529
+2021-02-25T10:12:01Z INFO /app/main.go:35 test log: 530
+2021-02-25T10:12:04Z INFO /app/main.go:35 test log: 531
+2021-02-25T10:12:07Z INFO /app/main.go:35 test log: 532
+2021-02-25T10:12:10Z INFO /app/main.go:35 test log: 533
+2021-02-25T10:12:13Z INFO /app/main.go:35 test log: 534
+2021-02-25T10:12:16Z INFO /app/main.go:35 test log: 535
+2021-02-25T10:12:19Z INFO /app/main.go:35 test log: 536
+2021-02-25T10:12:22Z INFO /app/main.go:35 test log: 537
+2021-02-25T10:12:25Z INFO /app/main.go:35 test log: 538
+2021-02-25T10:12:28Z INFO /app/main.go:35 test log: 539
+2021-02-25T10:12:31Z INFO /app/main.go:35 test log: 540
+2021-02-25T10:12:34Z INFO /app/main.go:35 test log: 541
+2021-02-25T10:12:37Z INFO /app/main.go:35 test log: 542
+2021-02-25T10:12:40Z INFO /app/main.go:35 test log: 543
+2021-02-25T10:12:43Z INFO /app/main.go:35 test log: 544
+2021-02-25T10:12:46Z INFO /app/main.go:35 test log: 545
+2021-02-25T10:12:49Z INFO /app/main.go:35 test log: 546
+2021-02-25T10:12:52Z INFO /app/main.go:35 test log: 547
+2021-02-25T10:12:55Z INFO /app/main.go:35 test log: 548
+2021-02-25T10:12:58Z INFO /app/main.go:35 test log: 549
+2021-02-25T10:13:01Z INFO /app/main.go:35 test log: 550
+2021-02-25T10:13:04Z INFO /app/main.go:35 test log: 551
+2021-02-25T10:13:07Z INFO /app/main.go:35 test log: 552
+2021-02-25T10:13:10Z INFO /app/main.go:35 test log: 553
+2021-02-25T10:13:13Z INFO /app/main.go:35 test log: 554
+2021-02-25T10:13:16Z INFO /app/main.go:35 test log: 555
+2021-02-25T10:13:19Z INFO /app/main.go:35 test log: 556
+2021-02-25T10:13:22Z INFO /app/main.go:35 test log: 557
+2021-02-25T10:13:25Z INFO /app/main.go:35 test log: 558
+2021-02-25T10:13:28Z INFO /app/main.go:35 test log: 559
+2021-02-25T10:13:31Z INFO /app/main.go:35 test log: 560
+2021-02-25T10:13:34Z ERROR /app/main.go:33 error because test: 561
+2021-02-25T10:13:37Z INFO /app/main.go:35 test log: 562
+2021-02-25T10:13:40Z ERROR /app/main.go:33 error because test: 563
+2021-02-25T10:13:43Z INFO /app/main.go:35 test log: 564
+2021-02-25T10:13:46Z INFO /app/main.go:35 test log: 565
+2021-02-25T10:13:49Z INFO /app/main.go:35 test log: 566
+2021-02-25T10:13:52Z INFO /app/main.go:35 test log: 567
+2021-02-25T10:13:55Z INFO /app/main.go:35 test log: 568
+2021-02-25T10:13:58Z ERROR /app/main.go:33 error because test: 569
+2021-02-25T10:14:01Z INFO /app/main.go:35 test log: 570
+2021-02-25T10:14:04Z INFO /app/main.go:35 test log: 571
+2021-02-25T10:14:07Z INFO /app/main.go:35 test log: 572
+2021-02-25T10:14:10Z INFO /app/main.go:35 test log: 573
+2021-02-25T10:14:13Z INFO /app/main.go:35 test log: 574
+2021-02-25T10:14:16Z ERROR /app/main.go:33 error because test: 575
+2021-02-25T10:14:19Z INFO /app/main.go:35 test log: 576
+2021-02-25T10:14:22Z ERROR /app/main.go:33 error because test: 577
+2021-02-25T10:14:25Z INFO /app/main.go:35 test log: 578
+2021-02-25T10:14:28Z INFO /app/main.go:35 test log: 579
+2021-02-25T10:14:31Z INFO /app/main.go:35 test log: 580
+2021-02-25T10:14:34Z INFO /app/main.go:35 test log: 581
+2021-02-25T10:14:37Z INFO /app/main.go:35 test log: 582
+2021-02-25T10:14:40Z INFO /app/main.go:35 test log: 583
+2021-02-25T10:14:43Z INFO /app/main.go:35 test log: 584
+2021-02-25T10:14:46Z INFO /app/main.go:35 test log: 585
+2021-02-25T10:14:50Z INFO /app/main.go:35 test log: 586
+2021-02-25T10:14:53Z INFO /app/main.go:35 test log: 587
+2021-02-25T10:14:56Z INFO /app/main.go:35 test log: 588
+2021-02-25T10:14:59Z INFO /app/main.go:35 test log: 589
+2021-02-25T10:15:02Z INFO /app/main.go:35 test log: 590
+2021-02-25T10:15:05Z INFO /app/main.go:35 test log: 591
+2021-02-25T10:15:08Z INFO /app/main.go:35 test log: 592
+2021-02-25T10:15:11Z INFO /app/main.go:35 test log: 593
+2021-02-25T10:15:14Z INFO /app/main.go:35 test log: 594
+2021-02-25T10:15:17Z INFO /app/main.go:35 test log: 595
+2021-02-25T10:15:20Z INFO /app/main.go:35 test log: 596
+2021-02-25T10:15:23Z INFO /app/main.go:35 test log: 597
+2021-02-25T10:15:26Z INFO /app/main.go:35 test log: 598
+2021-02-25T10:15:29Z INFO /app/main.go:35 test log: 599
+2021-02-25T10:15:32Z INFO /app/main.go:35 test log: 600
+2021-02-25T10:15:35Z INFO /app/main.go:35 test log: 601
+2021-02-25T10:15:38Z INFO /app/main.go:35 test log: 602
+2021-02-25T10:15:41Z ERROR /app/main.go:33 error because test: 603
+2021-02-25T10:15:44Z ERROR /app/main.go:33 error because test: 604
+2021-02-25T10:15:47Z INFO /app/main.go:35 test log: 605
+2021-02-25T10:15:50Z INFO /app/main.go:35 test log: 606
+2021-02-25T10:15:53Z INFO /app/main.go:35 test log: 607
+2021-02-25T10:15:56Z INFO /app/main.go:35 test log: 608
+2021-02-25T10:15:59Z INFO /app/main.go:35 test log: 609
+2021-02-25T10:16:02Z INFO /app/main.go:35 test log: 610
+2021-02-25T10:16:05Z ERROR /app/main.go:33 error because test: 611
+2021-02-25T10:16:08Z INFO /app/main.go:35 test log: 612
+2021-02-25T10:16:11Z INFO /app/main.go:35 test log: 613
+2021-02-25T10:16:14Z INFO /app/main.go:35 test log: 614
+2021-02-25T10:16:17Z ERROR /app/main.go:33 error because test: 615
+2021-02-25T10:16:20Z INFO /app/main.go:35 test log: 616
+2021-02-25T10:16:23Z INFO /app/main.go:35 test log: 617
+2021-02-25T10:16:26Z INFO /app/main.go:35 test log: 618
+2021-02-25T10:16:29Z INFO /app/main.go:35 test log: 619
+2021-02-25T10:16:32Z INFO /app/main.go:35 test log: 620
+2021-02-25T10:16:35Z ERROR /app/main.go:33 error because test: 621
+2021-02-25T10:16:38Z INFO /app/main.go:35 test log: 622
+2021-02-25T10:16:41Z INFO /app/main.go:35 test log: 623
+2021-02-25T10:16:44Z INFO /app/main.go:35 test log: 624
+2021-02-25T10:16:47Z INFO /app/main.go:35 test log: 625
+2021-02-25T10:16:50Z INFO /app/main.go:35 test log: 626
+2021-02-25T10:16:53Z INFO /app/main.go:35 test log: 627
+2021-02-25T10:16:56Z ERROR /app/main.go:33 error because test: 628
+2021-02-25T10:16:59Z ERROR /app/main.go:33 error because test: 629
+2021-02-25T10:17:02Z INFO /app/main.go:35 test log: 630
+2021-02-25T10:17:05Z INFO /app/main.go:35 test log: 631
+2021-02-25T10:17:08Z INFO /app/main.go:35 test log: 632
+2021-02-25T10:17:11Z INFO /app/main.go:35 test log: 633
+2021-02-25T10:17:14Z INFO /app/main.go:35 test log: 634
+2021-02-25T10:17:17Z INFO /app/main.go:35 test log: 635
+2021-02-25T10:17:20Z INFO /app/main.go:35 test log: 636
+2021-02-25T10:17:23Z INFO /app/main.go:35 test log: 637
+2021-02-25T10:17:26Z INFO /app/main.go:35 test log: 638
+2021-02-25T10:17:29Z INFO /app/main.go:35 test log: 639
+2021-02-25T10:17:32Z INFO /app/main.go:35 test log: 640
+2021-02-25T10:17:35Z INFO /app/main.go:35 test log: 641
+2021-02-25T10:17:38Z INFO /app/main.go:35 test log: 642
+2021-02-25T10:17:41Z INFO /app/main.go:35 test log: 643
+2021-02-25T10:17:44Z INFO /app/main.go:35 test log: 644
+2021-02-25T10:17:47Z INFO /app/main.go:35 test log: 645
+2021-02-25T10:17:50Z INFO /app/main.go:35 test log: 646
+2021-02-25T10:17:53Z ERROR /app/main.go:33 error because test: 647
+2021-02-25T10:17:56Z INFO /app/main.go:35 test log: 648
+2021-02-25T10:17:59Z ERROR /app/main.go:33 error because test: 649
+2021-02-25T10:18:02Z INFO /app/main.go:35 test log: 650
+2021-02-25T10:18:05Z INFO /app/main.go:35 test log: 651
+2021-02-25T10:18:08Z INFO /app/main.go:35 test log: 652
+2021-02-25T10:18:11Z INFO /app/main.go:35 test log: 653
+2021-02-25T10:18:14Z INFO /app/main.go:35 test log: 654
+2021-02-25T10:18:17Z INFO /app/main.go:35 test log: 655
+2021-02-25T10:18:20Z INFO /app/main.go:35 test log: 656
+2021-02-25T10:18:23Z INFO /app/main.go:35 test log: 657
+2021-02-25T10:18:26Z INFO /app/main.go:35 test log: 658
+2021-02-25T10:18:29Z INFO /app/main.go:35 test log: 659
+2021-02-25T10:18:32Z INFO /app/main.go:35 test log: 660
+2021-02-25T10:18:35Z ERROR /app/main.go:33 error because test: 661
+2021-02-25T10:18:38Z INFO /app/main.go:35 test log: 662
+2021-02-25T10:18:41Z INFO /app/main.go:35 test log: 663
+2021-02-25T10:19:50Z ERROR /app/main.go:33 error because test: 1
+2021-02-25T10:19:53Z INFO /app/main.go:35 test log: 2
+2021-02-25T10:19:56Z INFO /app/main.go:35 test log: 3
+2021-02-25T10:19:59Z INFO /app/main.go:35 test log: 4
+2021-02-25T10:20:02Z ERROR /app/main.go:33 error because test: 5
+2021-02-25T10:20:05Z INFO /app/main.go:35 test log: 6
+2021-02-25T10:20:08Z INFO /app/main.go:35 test log: 7
+2021-02-25T10:20:11Z INFO /app/main.go:35 test log: 8
+2021-02-25T10:20:14Z INFO /app/main.go:35 test log: 9
+2021-02-25T10:20:17Z INFO /app/main.go:35 test log: 10
+2021-02-25T10:20:20Z INFO /app/main.go:35 test log: 11
+2021-02-25T10:20:23Z ERROR /app/main.go:33 error because test: 12
+2021-02-25T10:20:26Z INFO /app/main.go:35 test log: 13
+2021-02-25T10:20:29Z INFO /app/main.go:35 test log: 14
+2021-02-25T10:20:32Z INFO /app/main.go:35 test log: 15
+2021-02-25T10:20:35Z INFO /app/main.go:35 test log: 16
+2021-02-25T10:20:38Z ERROR /app/main.go:33 error because test: 17
+2021-02-25T10:20:41Z INFO /app/main.go:35 test log: 18
+2021-02-25T10:20:44Z INFO /app/main.go:35 test log: 19
+2021-02-25T10:20:47Z INFO /app/main.go:35 test log: 20
+2021-02-25T10:20:50Z INFO /app/main.go:35 test log: 21
+2021-02-25T10:20:53Z INFO /app/main.go:35 test log: 22
+2021-02-25T10:20:56Z INFO /app/main.go:35 test log: 23
+2021-02-25T10:20:59Z INFO /app/main.go:35 test log: 24
+2021-02-25T10:21:02Z INFO /app/main.go:35 test log: 25
+2021-02-25T10:21:05Z INFO /app/main.go:35 test log: 26
+2021-02-25T10:21:08Z INFO /app/main.go:35 test log: 27
+2021-02-25T10:21:11Z INFO /app/main.go:35 test log: 28
+2021-02-25T10:21:14Z INFO /app/main.go:35 test log: 29
+2021-02-25T10:21:17Z INFO /app/main.go:35 test log: 30
+2021-02-25T10:21:20Z ERROR /app/main.go:33 error because test: 31
+2021-02-25T10:21:23Z INFO /app/main.go:35 test log: 32
+2021-02-25T10:21:26Z INFO /app/main.go:35 test log: 33
+2021-02-25T10:21:29Z ERROR /app/main.go:33 error because test: 34
+2021-02-25T10:21:32Z INFO /app/main.go:35 test log: 35
+2021-02-25T10:21:35Z INFO /app/main.go:35 test log: 36
+2021-02-25T10:21:38Z INFO /app/main.go:35 test log: 37
+2021-02-25T10:21:41Z ERROR /app/main.go:33 error because test: 38
+2021-02-25T10:21:44Z INFO /app/main.go:35 test log: 39
+2021-02-25T10:21:47Z INFO /app/main.go:35 test log: 40
+2021-02-25T10:21:50Z INFO /app/main.go:35 test log: 41
+2021-02-25T10:21:53Z INFO /app/main.go:35 test log: 42
+2021-02-25T10:21:56Z INFO /app/main.go:35 test log: 43
+2021-02-25T10:21:59Z INFO /app/main.go:35 test log: 44
+2021-02-25T10:22:02Z INFO /app/main.go:35 test log: 45
+2021-02-25T10:22:05Z INFO /app/main.go:35 test log: 46
+2021-02-25T10:22:08Z INFO /app/main.go:35 test log: 47
+2021-02-25T10:22:11Z INFO /app/main.go:35 test log: 48
+2021-02-25T10:22:14Z INFO /app/main.go:35 test log: 49
+2021-02-25T10:22:17Z INFO /app/main.go:35 test log: 50
+2021-02-25T10:22:20Z INFO /app/main.go:35 test log: 51
+2021-02-25T10:22:23Z ERROR /app/main.go:33 error because test: 52
+2021-02-25T10:22:26Z INFO /app/main.go:35 test log: 53
+2021-02-25T10:22:29Z INFO /app/main.go:35 test log: 54
+2021-02-25T10:22:32Z INFO /app/main.go:35 test log: 55
+2021-02-25T10:22:35Z INFO /app/main.go:35 test log: 56
+2021-02-25T10:22:38Z INFO /app/main.go:35 test log: 57
+2021-02-25T10:22:41Z INFO /app/main.go:35 test log: 58
+2021-02-25T10:22:44Z INFO /app/main.go:35 test log: 59
+2021-02-25T10:22:47Z INFO /app/main.go:35 test log: 60
+2021-02-25T10:22:50Z ERROR /app/main.go:33 error because test: 61
+2021-02-25T10:22:53Z INFO /app/main.go:35 test log: 62
+2021-02-25T10:22:56Z INFO /app/main.go:35 test log: 63
+2021-02-25T10:22:59Z INFO /app/main.go:35 test log: 64
+2021-02-25T10:23:02Z INFO /app/main.go:35 test log: 65
+2021-02-25T10:23:05Z INFO /app/main.go:35 test log: 66
+2021-02-25T10:23:08Z ERROR /app/main.go:33 error because test: 67
+2021-02-25T10:23:11Z INFO /app/main.go:35 test log: 68
+2021-02-25T10:23:14Z INFO /app/main.go:35 test log: 69
+2021-02-25T10:23:17Z INFO /app/main.go:35 test log: 70
+2021-02-25T10:23:20Z INFO /app/main.go:35 test log: 71
+2021-02-25T10:23:23Z INFO /app/main.go:35 test log: 72
+2021-02-25T10:23:26Z INFO /app/main.go:35 test log: 73
+2021-02-25T10:23:29Z INFO /app/main.go:35 test log: 74
+2021-02-25T10:23:32Z INFO /app/main.go:35 test log: 75
+2021-02-25T10:23:35Z INFO /app/main.go:35 test log: 76
+2021-02-25T10:23:38Z INFO /app/main.go:35 test log: 77
+2021-02-25T10:23:41Z INFO /app/main.go:35 test log: 78
+2021-02-25T10:23:44Z INFO /app/main.go:35 test log: 79
+2021-02-25T10:23:47Z INFO /app/main.go:35 test log: 80
+2021-02-25T10:23:50Z INFO /app/main.go:35 test log: 81
+2021-02-25T10:23:53Z INFO /app/main.go:35 test log: 82
+2021-02-25T10:23:56Z INFO /app/main.go:35 test log: 83
+2021-02-25T10:23:59Z INFO /app/main.go:35 test log: 84
+2021-02-25T10:24:02Z ERROR /app/main.go:33 error because test: 85
+2021-02-25T10:24:05Z INFO /app/main.go:35 test log: 86
+2021-02-25T10:24:08Z INFO /app/main.go:35 test log: 87
+2021-02-25T10:24:11Z INFO /app/main.go:35 test log: 88
+2021-02-25T10:24:14Z ERROR /app/main.go:33 error because test: 89
+2021-02-25T10:24:17Z INFO /app/main.go:35 test log: 90
+2021-02-25T10:24:20Z INFO /app/main.go:35 test log: 91
+2021-02-25T10:24:23Z INFO /app/main.go:35 test log: 92
+2021-02-25T10:24:26Z INFO /app/main.go:35 test log: 93
+2021-02-25T10:24:29Z INFO /app/main.go:35 test log: 94
+2021-02-25T10:24:32Z INFO /app/main.go:35 test log: 95
+2021-02-25T10:24:35Z INFO /app/main.go:35 test log: 96
+2021-02-25T10:24:38Z INFO /app/main.go:35 test log: 97
+2021-02-25T10:24:41Z INFO /app/main.go:35 test log: 98
+2021-02-25T10:24:44Z INFO /app/main.go:35 test log: 99
+2021-02-25T10:24:47Z INFO /app/main.go:35 test log: 100
+2021-02-25T10:24:50Z INFO /app/main.go:35 test log: 101
+2021-02-25T10:24:53Z ERROR /app/main.go:33 error because test: 102
+2021-02-25T10:24:56Z INFO /app/main.go:35 test log: 103
+2021-02-25T10:24:59Z INFO /app/main.go:35 test log: 104
+2021-02-25T10:25:02Z INFO /app/main.go:35 test log: 105
+2021-02-25T10:25:05Z INFO /app/main.go:35 test log: 106
+2021-02-25T10:25:08Z INFO /app/main.go:35 test log: 107
+2021-02-25T10:25:11Z INFO /app/main.go:35 test log: 108
+2021-02-25T10:25:14Z INFO /app/main.go:35 test log: 109
+2021-02-25T10:25:17Z INFO /app/main.go:35 test log: 110
+2021-02-25T10:25:20Z INFO /app/main.go:35 test log: 111
+2021-02-25T10:25:23Z INFO /app/main.go:35 test log: 112
+2021-02-25T10:25:26Z ERROR /app/main.go:33 error because test: 113
+2021-02-25T10:25:29Z INFO /app/main.go:35 test log: 114
+2021-02-25T10:25:32Z INFO /app/main.go:35 test log: 115
+2021-02-25T10:25:35Z INFO /app/main.go:35 test log: 116
+2021-02-25T10:25:38Z INFO /app/main.go:35 test log: 117
+2021-02-25T10:25:41Z INFO /app/main.go:35 test log: 118
+2021-02-25T10:25:44Z ERROR /app/main.go:33 error because test: 119
+2021-02-25T10:25:47Z INFO /app/main.go:35 test log: 120
+2021-02-25T10:25:50Z INFO /app/main.go:35 test log: 121
+2021-02-25T10:25:53Z INFO /app/main.go:35 test log: 122
+2021-02-25T10:25:56Z ERROR /app/main.go:33 error because test: 123
+2021-02-25T10:25:59Z INFO /app/main.go:35 test log: 124
+2021-02-25T10:26:02Z INFO /app/main.go:35 test log: 125
+2021-02-25T10:26:05Z INFO /app/main.go:35 test log: 126
+2021-02-25T10:26:08Z INFO /app/main.go:35 test log: 127
+2021-02-25T10:26:11Z INFO /app/main.go:35 test log: 128
+2021-02-25T10:26:14Z INFO /app/main.go:35 test log: 129
+2021-02-25T10:26:17Z ERROR /app/main.go:33 error because test: 130
+2021-02-25T10:26:20Z INFO /app/main.go:35 test log: 131
+2021-02-25T10:26:23Z INFO /app/main.go:35 test log: 132
+2021-02-25T10:26:26Z INFO /app/main.go:35 test log: 133
+2021-02-25T10:26:29Z INFO /app/main.go:35 test log: 134
+2021-02-25T10:26:32Z INFO /app/main.go:35 test log: 135
+2021-02-25T10:26:35Z INFO /app/main.go:35 test log: 136
+2021-02-25T10:26:38Z INFO /app/main.go:35 test log: 137
+2021-02-25T10:26:41Z INFO /app/main.go:35 test log: 138
+2021-02-25T10:26:44Z INFO /app/main.go:35 test log: 139
+2021-02-25T10:26:47Z INFO /app/main.go:35 test log: 140
+2021-02-25T10:26:50Z INFO /app/main.go:35 test log: 141
+2021-02-25T10:26:53Z INFO /app/main.go:35 test log: 142
+2021-02-25T10:26:56Z INFO /app/main.go:35 test log: 143
+2021-02-25T10:26:59Z INFO /app/main.go:35 test log: 144
+2021-02-25T10:27:02Z INFO /app/main.go:35 test log: 145
+2021-02-25T10:27:05Z INFO /app/main.go:35 test log: 146
+2021-02-25T10:27:08Z INFO /app/main.go:35 test log: 147
+2021-02-25T10:27:11Z INFO /app/main.go:35 test log: 148
+2021-02-25T10:27:14Z ERROR /app/main.go:33 error because test: 149
+2021-02-25T10:27:17Z INFO /app/main.go:35 test log: 150
+2021-02-25T10:27:20Z INFO /app/main.go:35 test log: 151
+2021-02-25T10:27:23Z ERROR /app/main.go:33 error because test: 152
+2021-02-25T10:27:26Z INFO /app/main.go:35 test log: 153
+2021-02-25T10:27:29Z INFO /app/main.go:35 test log: 154
+2021-02-25T10:27:32Z INFO /app/main.go:35 test log: 155
+2021-02-25T10:27:35Z INFO /app/main.go:35 test log: 156
+2021-02-25T10:27:38Z ERROR /app/main.go:33 error because test: 157
+2021-02-25T10:27:41Z INFO /app/main.go:35 test log: 158
+2021-02-25T10:27:44Z INFO /app/main.go:35 test log: 159
+2021-02-25T10:27:47Z INFO /app/main.go:35 test log: 160
+2021-02-25T10:27:50Z INFO /app/main.go:35 test log: 161
+2021-02-25T10:27:53Z ERROR /app/main.go:33 error because test: 162
+2021-02-25T10:27:56Z INFO /app/main.go:35 test log: 163
+2021-02-25T10:27:59Z INFO /app/main.go:35 test log: 164
+2021-02-25T10:28:02Z INFO /app/main.go:35 test log: 165
+2021-02-25T10:28:05Z INFO /app/main.go:35 test log: 166
+2021-02-25T10:28:08Z INFO /app/main.go:35 test log: 167
+2021-02-25T10:28:11Z INFO /app/main.go:35 test log: 168
+2021-02-25T10:28:14Z INFO /app/main.go:35 test log: 169
+2021-02-25T10:28:17Z INFO /app/main.go:35 test log: 170
+2021-02-25T10:28:20Z INFO /app/main.go:35 test log: 171
+2021-02-25T10:28:23Z INFO /app/main.go:35 test log: 172
+2021-02-25T10:28:26Z INFO /app/main.go:35 test log: 173
+2021-02-25T10:28:29Z INFO /app/main.go:35 test log: 174
+2021-02-25T10:28:32Z INFO /app/main.go:35 test log: 175
+2021-02-25T10:28:35Z INFO /app/main.go:35 test log: 176
+2021-02-25T10:28:38Z INFO /app/main.go:35 test log: 177
+2021-02-25T10:28:41Z INFO /app/main.go:35 test log: 178
+2021-02-25T10:28:44Z ERROR /app/main.go:33 error because test: 179
+2021-02-25T10:28:47Z INFO /app/main.go:35 test log: 180
+2021-02-25T10:28:50Z INFO /app/main.go:35 test log: 181
+2021-02-25T10:28:53Z INFO /app/main.go:35 test log: 182
+2021-02-25T10:28:56Z INFO /app/main.go:35 test log: 183
+2021-02-25T10:28:59Z INFO /app/main.go:35 test log: 184
+2021-02-25T10:29:02Z INFO /app/main.go:35 test log: 185
+2021-02-25T10:29:05Z INFO /app/main.go:35 test log: 186
+2021-02-25T10:29:08Z INFO /app/main.go:35 test log: 187
+2021-02-25T10:29:11Z INFO /app/main.go:35 test log: 188
+2021-02-25T10:29:14Z INFO /app/main.go:35 test log: 189
+2021-02-25T10:29:17Z INFO /app/main.go:35 test log: 190
+2021-02-25T10:29:20Z INFO /app/main.go:35 test log: 191
+2021-02-25T10:29:23Z INFO /app/main.go:35 test log: 192
+2021-02-25T10:29:26Z INFO /app/main.go:35 test log: 193
+2021-02-25T10:29:29Z INFO /app/main.go:35 test log: 194
+2021-02-25T10:29:32Z INFO /app/main.go:35 test log: 195
+2021-02-25T10:29:35Z INFO /app/main.go:35 test log: 196
+2021-02-25T10:29:38Z INFO /app/main.go:35 test log: 197
+2021-02-25T10:29:41Z INFO /app/main.go:35 test log: 198
+2021-02-25T10:29:44Z INFO /app/main.go:35 test log: 199
+2021-02-25T10:29:47Z INFO /app/main.go:35 test log: 200
+2021-02-25T10:29:50Z INFO /app/main.go:35 test log: 201
+2021-02-25T10:29:53Z INFO /app/main.go:35 test log: 202
+2021-02-25T10:29:56Z ERROR /app/main.go:33 error because test: 203
+2021-02-25T10:29:59Z INFO /app/main.go:35 test log: 204
+2021-02-25T10:30:02Z INFO /app/main.go:35 test log: 205
+2021-02-25T10:30:05Z INFO /app/main.go:35 test log: 206
+2021-02-25T10:30:08Z INFO /app/main.go:35 test log: 207
+2021-02-25T10:30:11Z INFO /app/main.go:35 test log: 208
+2021-02-25T10:30:14Z INFO /app/main.go:35 test log: 209
+2021-02-25T10:30:17Z INFO /app/main.go:35 test log: 210
+2021-02-25T10:30:20Z INFO /app/main.go:35 test log: 211
+2021-02-25T10:30:23Z ERROR /app/main.go:33 error because test: 212
+2021-02-25T10:30:26Z INFO /app/main.go:35 test log: 213
+2021-02-25T10:30:29Z INFO /app/main.go:35 test log: 214
+2021-02-25T10:30:32Z INFO /app/main.go:35 test log: 215
+2021-02-25T10:30:35Z INFO /app/main.go:35 test log: 216
+2021-02-25T10:30:38Z INFO /app/main.go:35 test log: 217
+2021-02-25T10:30:41Z INFO /app/main.go:35 test log: 218
+2021-02-25T10:30:44Z INFO /app/main.go:35 test log: 219
+2021-02-25T10:30:47Z INFO /app/main.go:35 test log: 220
+2021-02-25T10:30:50Z INFO /app/main.go:35 test log: 221
+2021-02-25T10:30:53Z ERROR /app/main.go:33 error because test: 222
+2021-02-25T10:30:56Z INFO /app/main.go:35 test log: 223
+2021-02-25T10:30:59Z INFO /app/main.go:35 test log: 224
+2021-02-25T10:31:02Z INFO /app/main.go:35 test log: 225
+2021-02-25T10:31:05Z INFO /app/main.go:35 test log: 226
+2021-02-25T10:31:08Z INFO /app/main.go:35 test log: 227
+2021-02-25T10:31:11Z INFO /app/main.go:35 test log: 228
+2021-02-25T10:31:14Z INFO /app/main.go:35 test log: 229
+2021-02-25T10:31:17Z INFO /app/main.go:35 test log: 230
+2021-02-25T10:31:20Z INFO /app/main.go:35 test log: 231
+2021-02-25T10:31:23Z INFO /app/main.go:35 test log: 232
+2021-02-25T10:31:26Z INFO /app/main.go:35 test log: 233
+2021-02-25T10:31:29Z INFO /app/main.go:35 test log: 234
+2021-02-25T10:31:32Z ERROR /app/main.go:33 error because test: 235
+2021-02-25T10:31:35Z INFO /app/main.go:35 test log: 236
+2021-02-25T10:31:38Z INFO /app/main.go:35 test log: 237
+2021-02-25T10:31:41Z INFO /app/main.go:35 test log: 238
+2021-02-25T10:31:44Z INFO /app/main.go:35 test log: 239
+2021-02-25T10:31:47Z INFO /app/main.go:35 test log: 240
+2021-02-25T10:31:50Z INFO /app/main.go:35 test log: 241
+2021-02-25T10:31:53Z ERROR /app/main.go:33 error because test: 242
+2021-02-25T10:31:56Z ERROR /app/main.go:33 error because test: 243
+2021-02-25T10:31:59Z INFO /app/main.go:35 test log: 244
+2021-02-25T10:32:02Z INFO /app/main.go:35 test log: 245
+2021-02-25T10:32:05Z INFO /app/main.go:35 test log: 246
+2021-02-25T10:32:08Z INFO /app/main.go:35 test log: 247
+2021-02-25T10:32:11Z INFO /app/main.go:35 test log: 248
+2021-02-25T10:32:14Z INFO /app/main.go:35 test log: 249
+2021-02-25T10:32:17Z ERROR /app/main.go:33 error because test: 250
+2021-02-25T10:32:20Z INFO /app/main.go:35 test log: 251
+2021-02-25T10:32:23Z INFO /app/main.go:35 test log: 252
+2021-02-25T10:32:26Z INFO /app/main.go:35 test log: 253
+2021-02-25T10:32:29Z INFO /app/main.go:35 test log: 254
+2021-02-25T10:32:32Z INFO /app/main.go:35 test log: 255
+2021-02-25T10:32:35Z INFO /app/main.go:35 test log: 256
+2021-02-25T10:32:38Z INFO /app/main.go:35 test log: 257
+2021-02-25T10:32:41Z INFO /app/main.go:35 test log: 258
+2021-02-25T10:32:44Z INFO /app/main.go:35 test log: 259
+2021-02-25T10:32:47Z INFO /app/main.go:35 test log: 260
+2021-02-25T10:32:50Z INFO /app/main.go:35 test log: 261
+2021-02-25T10:32:53Z INFO /app/main.go:35 test log: 262
+2021-02-25T10:32:56Z INFO /app/main.go:35 test log: 263
+2021-02-25T10:32:59Z INFO /app/main.go:35 test log: 264
+2021-02-25T10:33:02Z ERROR /app/main.go:33 error because test: 265
+2021-02-25T10:33:05Z INFO /app/main.go:35 test log: 266
+2021-02-25T10:33:08Z INFO /app/main.go:35 test log: 267
+2021-02-25T10:33:11Z INFO /app/main.go:35 test log: 268
+2021-02-25T10:33:14Z INFO /app/main.go:35 test log: 269
+2021-02-25T10:33:17Z INFO /app/main.go:35 test log: 270
+2021-02-25T10:33:20Z INFO /app/main.go:35 test log: 271
+2021-02-25T10:33:23Z INFO /app/main.go:35 test log: 272
+2021-02-25T10:33:26Z INFO /app/main.go:35 test log: 273
+2021-02-25T10:33:29Z INFO /app/main.go:35 test log: 274
+2021-02-25T10:33:32Z INFO /app/main.go:35 test log: 275
+2021-02-25T10:33:35Z INFO /app/main.go:35 test log: 276
+2021-02-25T10:33:38Z INFO /app/main.go:35 test log: 277
+2021-02-25T10:33:41Z INFO /app/main.go:35 test log: 278
+2021-02-25T10:33:44Z INFO /app/main.go:35 test log: 279
+2021-02-25T10:33:47Z INFO /app/main.go:35 test log: 280
+2021-02-25T10:33:50Z INFO /app/main.go:35 test log: 281
+2021-02-25T10:33:53Z INFO /app/main.go:35 test log: 282
+2021-02-25T10:33:56Z INFO /app/main.go:35 test log: 283
+2021-02-25T10:33:59Z ERROR /app/main.go:33 error because test: 284
+2021-02-25T10:34:02Z INFO /app/main.go:35 test log: 285
+2021-02-25T10:34:05Z ERROR /app/main.go:33 error because test: 286
+2021-02-25T10:34:08Z INFO /app/main.go:35 test log: 287
+2021-02-25T10:34:11Z INFO /app/main.go:35 test log: 288
+2021-02-25T10:34:14Z INFO /app/main.go:35 test log: 289
+2021-02-25T10:34:17Z INFO /app/main.go:35 test log: 290
+2021-02-25T10:34:20Z INFO /app/main.go:35 test log: 291
+2021-02-25T10:34:23Z ERROR /app/main.go:33 error because test: 292
+2021-02-25T10:34:26Z ERROR /app/main.go:33 error because test: 293
+2021-02-25T10:34:29Z INFO /app/main.go:35 test log: 294
+2021-02-25T10:34:32Z ERROR /app/main.go:33 error because test: 295
+2021-02-25T10:34:35Z INFO /app/main.go:35 test log: 296
+2021-02-25T10:34:38Z INFO /app/main.go:35 test log: 297
+2021-02-25T10:34:41Z INFO /app/main.go:35 test log: 298
+2021-02-25T10:34:44Z INFO /app/main.go:35 test log: 299
+2021-02-25T10:34:47Z INFO /app/main.go:35 test log: 300
+2021-02-25T10:34:50Z INFO /app/main.go:35 test log: 301
+2021-02-25T10:34:53Z INFO /app/main.go:35 test log: 302
+2021-02-25T10:34:56Z INFO /app/main.go:35 test log: 303
+2021-02-25T10:34:59Z INFO /app/main.go:35 test log: 304
+2021-02-25T10:35:02Z INFO /app/main.go:35 test log: 305
+2021-02-25T10:35:05Z INFO /app/main.go:35 test log: 306
+2021-02-25T10:35:08Z INFO /app/main.go:35 test log: 307
+2021-02-25T10:35:11Z INFO /app/main.go:35 test log: 308
+2021-02-25T10:35:14Z INFO /app/main.go:35 test log: 309
+2021-02-25T10:35:17Z INFO /app/main.go:35 test log: 310
+2021-02-25T10:35:20Z INFO /app/main.go:35 test log: 311
+2021-02-25T10:35:23Z INFO /app/main.go:35 test log: 312
+2021-02-25T10:35:26Z INFO /app/main.go:35 test log: 313
+2021-02-25T10:35:29Z INFO /app/main.go:35 test log: 314
+2021-02-25T10:35:32Z INFO /app/main.go:35 test log: 315
+2021-02-25T10:35:35Z INFO /app/main.go:35 test log: 316
+2021-02-25T10:35:38Z INFO /app/main.go:35 test log: 317
+2021-02-25T10:35:41Z INFO /app/main.go:35 test log: 318
